@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use Discovery Foundation Models or this repository in your research, please cite the associated manuscript and repository."
+message: "If you use this repository or its released resources in your research, please cite the repository and the relevant associated work where applicable."
 title: "Discovery Foundation Models"
 type: software
 authors:
