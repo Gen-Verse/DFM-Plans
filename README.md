@@ -81,7 +81,6 @@ The repository is organized as the full DFM research stack from system foundatio
 
 ```text
 DiscoveryModels/
-├── paper/          # DFM definition and paper snapshot
 ├── zetema/         # Reference DFM system organization
 ├── training/       # Capability formation and scientific post-training
 ├── environments/   # Digital, simulation, and physical grounding
