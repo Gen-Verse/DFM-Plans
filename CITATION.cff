@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use Discovery Foundation Models or this repository in your research, please cite the associated manuscript and repository."
+title: "Discovery Foundation Models"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Ling
+  - family-names: Yin
+    given-names: Zhenfei
+  - family-names: Wu
+    given-names: Yingcheng
+date-released: 2026-08-08
+license: Apache-2.0
+repository-code: "https://github.com/Gen-Verse/DiscoveryModels"
