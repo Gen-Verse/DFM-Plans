@@ -73,6 +73,12 @@ Mature research tracks may lead to collaboration on flagship DFM work, independe
 
 No publication venue, authorship position, or editorial outcome is guaranteed. All submissions follow normal independent peer review and editorial processes.
 
+## Contact
+
+For research collaborations, domain partnerships, industry collaborations, funded project discussions, or non-public proposals:
+
+**[yang@phai-labs.com](mailto:yang@phai-labs.com)**
+
 ## Start a Collaboration
 
 Use one of the GitHub issue templates to propose:
@@ -82,4 +88,4 @@ Use one of the GitHub issue templates to propose:
 - an infrastructure contribution,
 - or a reproduction / challenge.
 
-For sensitive commercial or unpublished work, contact the project maintainers through the contact channel listed on the repository profile rather than posting confidential material publicly.
+For sensitive commercial, proprietary, or unpublished work, please contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)** rather than posting confidential material publicly.
