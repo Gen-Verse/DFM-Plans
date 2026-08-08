@@ -6,6 +6,8 @@
 
 [English](README.md) · [开放问题](OPEN_PROBLEMS.md) · [合作](COLLABORATE.md) · [路线图](ROADMAP.md) · [贡献指南](CONTRIBUTING.md)
 
+**联系方式：** [yang@phai-labs.com](mailto:yang@phai-labs.com) — 科研合作、领域合作、产业合作以及 Funded Projects。
+
 **Discovery Foundation Models（DFMs）** 希望推动基础模型从解决已经定义好的任务，进一步走向**开放式发现**：主动发现值得研究的问题、构建和修正表征、形成可检验的假设、设计具有区分力的干预，并根据外部证据持续修正研究过程，最终不断提升发现能力本身。
 
 **DFM Community** 是围绕这一愿景长期运行的网络，连接 **AI 研究者、领域科学家、基础设施建设者、科研机构、企业与真实研究环境**。
@@ -67,7 +69,6 @@
 
 ```text
 DiscoveryModels/
-├── paper/          # DFM 定义与论文
 ├── zetema/         # DFM 参考系统组织
 ├── training/       # Capability Formation / Scientific Post-Training
 ├── environments/   # Digital / Simulation / Physical Grounding
