@@ -138,4 +138,6 @@ Open an issue using the **Research Proposal** or **Domain Proposal** template. S
 - what environment or data is required,
 - and what would falsify the proposed direction.
 
+For funded problems, domain collaborations, industry challenges, or non-public research opportunities, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+
 > **Pick a problem. Build a missing piece. Bring a new domain.**
