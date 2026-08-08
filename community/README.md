@@ -10,3 +10,9 @@ Planned community layers:
 - [`partners/`](partners/) — announced academic, domain, infrastructure, and industry collaborations
 
 See [`../COLLABORATE.md`](../COLLABORATE.md) for collaboration routes.
+
+## Contact
+
+For community participation, research partnerships, funded challenges, domain collaborations, or industry partnerships:
+
+**[yang@phai-labs.com](mailto:yang@phai-labs.com)**
