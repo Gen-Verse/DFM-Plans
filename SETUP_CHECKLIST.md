@@ -52,15 +52,14 @@ Use this after uploading the repository.
 - [ ] Mark only genuinely funded problems with `funded`
 - [ ] Pin the strongest 3–5 issues or discussions
 
-## Paper & Media
+## Assets & Media
 
-- [ ] Add the public paper PDF when available
-- [ ] Add `references.bib`, document class, and compile dependencies if the full LaTeX project will be open sourced
-- [ ] Add released figures to `assets/`
+- [ ] Keep the repository overview figure in `assets/` up to date
+- [ ] Add released diagrams, demos, and community-facing media as they become available
 - [ ] Add project logo/banner only when final
 
 ## Collaboration
 
-- [ ] Add a public contact channel to the repository profile or `COLLABORATE.md`
+- [x] Public contact: `yang@phai-labs.com`
 - [ ] Do not ask partners to post confidential or proprietary information in public issues
 - [ ] Keep publication/funding language contribution-based and non-guaranteed
