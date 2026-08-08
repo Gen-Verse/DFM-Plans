@@ -7,7 +7,7 @@
 [中文](README_CN.md) · [Open Problems](OPEN_PROBLEMS.md) · [Collaborate](COLLABORATE.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
 <p align="center">
-  <img src="assets/dfm_community_overview.png" width="100%" alt="Discovery Foundation Models Overview">
+  <img src="assets/fullpicture.png" width="100%" alt="Discovery Foundation Models Overview">
 </p>
 
 <p align="center">
