@@ -4,6 +4,8 @@ Thank you for helping build Discovery Foundation Models.
 
 DFM is a research community, not only a software repository. Contributions can be conceptual, algorithmic, engineering, empirical, domain-specific, or critical.
 
+For questions about collaboration, contribution scope, funded directions, or non-public research proposals, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+
 ## Ways to Contribute
 
 ### Research Contributions
@@ -53,7 +55,7 @@ A typical contribution may evolve through:
 
 **Idea / Proposal → Prototype → Reproducible Artifact → Validation → Integration / Research Track**
 
-Start with an Issue or Discussion before investing heavily in large changes.
+Start with an Issue or Discussion before investing heavily in large changes. For sensitive, proprietary, or unpublished proposals, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)** instead of posting confidential material publicly.
 
 ## Pull Requests
 
