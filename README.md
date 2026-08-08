@@ -6,6 +6,18 @@
 
 [中文](README_CN.md) · [Open Problems](OPEN_PROBLEMS.md) · [Collaborate](COLLABORATE.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
+<p align="center">
+  <img src="assets/dfm_community_overview.png" width="100%" alt="Discovery Foundation Models Overview">
+</p>
+
+<p align="center">
+  <em>DFM Paradigm → Zetema System → DFM Community</em>
+</p>
+
+---
+
+## About
+
 **Discovery Foundation Models (DFMs)** aim to move foundation models beyond solving predefined tasks toward **open-ended discovery**: discovering valuable problems, constructing and revising representations, forming testable hypotheses, designing informative interventions, revising under external evidence, and continually improving discovery itself.
 
 **DFM Community** is the long-term network around this vision. It connects **AI researchers, domain scientists, infrastructure builders, research labs, companies, and real-world environments**.
