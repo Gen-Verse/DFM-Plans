@@ -6,6 +6,8 @@
 
 [中文](README_CN.md) · [Open Problems](OPEN_PROBLEMS.md) · [Collaborate](COLLABORATE.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
+**Contact:** [yang@phai-labs.com](mailto:yang@phai-labs.com) — research collaboration, domain partnerships, industry partnerships, and funded projects.
+
 <p align="center">
   <img src="assets/fullpicture.png" width="100%" alt="Discovery Foundation Models Overview">
 </p>
