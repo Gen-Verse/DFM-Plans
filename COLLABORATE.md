@@ -1,91 +1,35 @@
-# Collaborate with DFM Community
+# Technical Collaboration
 
-DFM Community is a long-term network connecting frontier AI with domain expertise, research infrastructure, and real-world discovery problems.
+DFM Plans is the technical entry point for teams and developers who want to implement, evaluate, demonstrate, or integrate Discovery Foundation Model capabilities.
 
-We welcome collaborations that are **academic, open-source, interdisciplinary, or applied**.
+## Collaboration Areas
 
-## Academic Research
+### Module Implementation
 
-Potential collaborations include:
+Build a defined part of the DFM system, such as Research State, discovery proposal, representation construction, intervention, verification, revision, memory, or continual improvement.
 
-- algorithms and post-training
-- agents and scientific RL
-- systems and infrastructure
-- benchmarks and datasets
-- research environments
-- evaluation protocols
-- domain-specific discovery studies
-- interdisciplinary publications
+### Demos and Integrations
 
-Substantial contributions may develop into joint research projects and publications. Authorship and credit are based on actual intellectual and research contributions.
+Create reproducible demos, domain adapters, tool integrations, APIs, or interfaces to external research environments.
 
-## Domain Collaboration
+### Infrastructure and Evaluation
 
-We especially welcome scientists and domain experts who can bring:
+Contribute environments, benchmarks, evaluation protocols, provenance, observability, reproducibility, and training or post-training infrastructure.
 
-- important unsolved questions
-- specialized datasets
-- simulators or digital twins
-- experimental environments
-- measurement processes
-- domain validators
-- experimental protocols
-- wet-lab or physical infrastructure
-- expert judgment required to formulate the problem correctly
+### External Codebases
 
-You do not need to be an AI researcher to participate.
+Connect an existing open-source project to a DFM module or milestone. Relevant implementations do not need to be moved into this repository; they can be linked through the roadmap and release index.
 
-## Industry & Real-World Partnerships
+## How to Start
 
-We welcome organizations with real problems, proprietary or specialized environments, unique data, experimental infrastructure, or deployment settings that can challenge and ground Discovery Foundation Models.
+For public technical discussion, open a GitHub Issue with:
 
-Possible forms include:
+- the module or milestone you want to work on;
+- the implementation, environment, or codebase you can contribute;
+- the intended public artifact;
+- the expected validation or demo;
+- any interface or dependency requirements.
 
-- joint R&D
-- real-world challenges
-- specialized or private datasets
-- evaluation environments
-- pilot studies
-- scientific infrastructure
-- deployment-oriented validation
+For non-public work, unreleased code, or broader technical coordination, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
 
-Collaborations may be **open, partially open, or private** depending on data, IP, safety, and research constraints.
-
-## Research Support
-
-For particularly important problems and contributors, we may provide:
-
-- research funding
-- compute / GPU resources
-- API resources
-- engineering support
-- dataset construction
-- annotation
-- simulation development
-- experimental expenses
-- wet-lab costs
-
-> **Important discovery problems should not be blocked only by a lack of resources.**
-
-## Publication Collaboration
-
-Mature research tracks may lead to collaboration on flagship DFM work, independent papers, conferences, workshops, and appropriate leading or companion journals.
-
-No publication venue, authorship position, or editorial outcome is guaranteed. All submissions follow normal independent peer review and editorial processes.
-
-## Contact
-
-For research collaborations, domain partnerships, industry collaborations, funded project discussions, or non-public proposals:
-
-**[yang@phai-labs.com](mailto:yang@phai-labs.com)**
-
-## Start a Collaboration
-
-Use one of the GitHub issue templates to propose:
-
-- a research problem,
-- a domain,
-- an infrastructure contribution,
-- or a reproduction / challenge.
-
-For sensitive commercial, proprietary, or unpublished work, please contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)** rather than posting confidential material publicly.
+Please do not post confidential data, credentials, proprietary materials, or unpublished sensitive information in a public Issue.

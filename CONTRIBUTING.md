@@ -1,93 +1,43 @@
-# Contributing to DFM Community
+# Contributing to DFM Plans
 
-Thank you for helping build Discovery Foundation Models.
-
-DFM is a research community, not only a software repository. Contributions can be conceptual, algorithmic, engineering, empirical, domain-specific, or critical.
-
-For questions about collaboration, contribution scope, funded directions, or non-public research proposals, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+This repository is the technical coordination point for DFM implementations, releases, demos, and integrations.
 
 ## Ways to Contribute
 
-### Research Contributions
+Useful contributions include:
 
-- new DFM algorithms
-- scientific RL / post-training methods
-- representation or intervention methods
-- new evaluation protocols
-- theoretical analysis
-
-### Engineering Contributions
-
-- research-state infrastructure
-- tools and environments
-- memory systems
-- provenance
-- verification and gating
-- reproducibility tooling
-
-### Domain Contributions
-
-- important real-world problems
-- datasets
-- simulators
-- experimental environments
-- protocols
-- validators
-- wet-lab access
-- domain expertise
-
-### Reproduction & Criticism
-
-We explicitly welcome:
-
-- failed replications
-- negative results
-- counterexamples
-- benchmark failures
-- evidence that a DFM assumption is wrong
-- alternative formulations of the framework
-
-> **You do not need to agree with the current DFM formulation to contribute.**
+- implementation of a defined DFM module or interface;
+- minimal and end-to-end demos;
+- environments, tools, adapters, and APIs;
+- evaluation tasks, metrics, and reproducibility tooling;
+- documentation, examples, and integration guides;
+- bug reports, failed cases, and technically grounded design feedback.
 
 ## Contribution Flow
 
-A typical contribution may evolve through:
+1. Check [ROADMAP.md](ROADMAP.md) and existing Issues.
+2. Open an Issue before starting a large change. Describe the target module, proposed interface, expected artifact, and how it will be tested.
+3. Keep pull requests focused on one module, demo, or integration.
+4. Link the relevant milestone or Issue.
+5. Include reproduction instructions and clearly state known limitations.
 
-**Idea / Proposal → Prototype → Reproducible Artifact → Validation → Integration / Research Track**
+Code may live in this repository or in a linked implementation repository, depending on the module.
 
-Start with an Issue or Discussion before investing heavily in large changes. For sensitive, proprietary, or unpublished proposals, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)** instead of posting confidential material publicly.
+## Pull Request Checklist
 
-## Pull Requests
+A technical contribution should make clear:
 
-For code or artifact contributions:
+- what capability or interface it implements;
+- how to run the code or demo;
+- what dependencies and data are required;
+- what evidence shows that it works;
+- what remains incomplete or unstable;
+- whether any data, model, or third-party license restricts reuse.
 
-1. Keep the scope focused.
-2. Explain the research motivation.
-3. Include reproduction instructions where applicable.
-4. State the evidence supporting the contribution.
-5. Report known limitations and negative results.
-6. Do not include confidential, proprietary, or restricted data without authorization.
+Do not submit confidential, proprietary, personally identifiable, or otherwise restricted data.
 
-## Scientific Standards
+## Technical Standard
 
-We prioritize:
+We prioritize inspectable interfaces, reproducibility, provenance, external evidence, and evaluation beyond a single successful example. Negative results and well-documented failure cases are welcome when they improve the system design.
 
-- reproducibility
-- provenance
-- appropriate baselines
-- external grounding
-- falsification
-- independent validation
-- transfer beyond a single benchmark or episode
-
-A contribution is not promoted because it sounds novel; it is promoted because its effects can be inspected and validated.
-
-## Credit and Authorship
-
-GitHub contribution does not automatically imply paper authorship. Publication credit is based on actual intellectual and research contribution to the relevant work.
-
-Major early contributions to the broader initiative may be recognized as **DFM Community Founding Contributors**.
-
-## Conduct
-
-Be rigorous, constructive, and respectful. Critique claims and evidence rather than people. Good-faith disagreement and strong counterexamples are encouraged.
+For technical questions, use GitHub Issues. For larger or non-public integration discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.

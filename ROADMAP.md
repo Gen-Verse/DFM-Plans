@@ -1,55 +1,43 @@
-# DFM Roadmap
+# DFM Implementation Milestones
 
-DFM is a long-term research program rather than a fixed release schedule. The roadmap is organized by capability development rather than deadlines.
+This file is the live technical tracker for DFM system development. It will be updated as module scope, implementations, demos, evaluation results, and public repositories become available.
 
-## Phase 0 — Define
+There is no fixed release calendar yet. Dates will be added only when a milestone has a concrete implementation plan.
 
-- Discovery Foundation Models framework
-- Discovery Process
-- Zetema system organization
-- open research map
-- process-centered evaluation principles
-- DFM Community and DFM Commons
+## Status
 
-## Phase 1 — Build
+- **Planned** — scope identified; implementation has not been publicly started.
+- **In Development** — implementation or internal validation is underway.
+- **Preview** — an early artifact or demo is available, but interfaces may still change.
+- **Released** — a public artifact, usage instructions, and known limitations are available.
 
-Progressively release and co-develop:
+## Milestone Tracker
 
-- explicit Research State
-- discovery agents
-- branching and rollback
-- Research World Models
-- verification and experimental gating
-- scientific RL / post-training
-- Discovery Skill Memory
-- evaluation infrastructure
-- interactive research environments
+| ID | Module | Target | Expected public artifact | Status |
+| --- | --- | --- | --- | --- |
+| M0 | Technical roadmap | Define module boundaries, release criteria, and contribution flow | This roadmap and developer entry point | Released |
+| M1 | Minimal discovery loop | Connect Research State, proposal, action or intervention, evidence, and revision in one inspectable loop | Reference implementation and minimal demo | Planned |
+| M2 | Problem proposer | Implement problem discovery and problem formulation from structured research context | Code, demo, and initial evaluation | Planned |
+| M3 | Representation and hypothesis | Construct useful representations and generate testable hypotheses | Module implementation and capability demo | Planned |
+| M4 | Evidence-grounded revision | Add verification, experimental gating, failure attribution, and evidence-based updates | Revision traces, verifier interface, and evaluation | Planned |
+| M5 | Continual discovery improvement | Learn reusable discovery operations and update skills across tasks | Skill or memory module and cross-task evaluation | Planned |
+| M6 | Environments and evaluation | Connect digital, simulation, and physical environments with process and transfer evaluation | Environment adapters, benchmark tasks, and evaluation tools | Planned |
+| M7 | Domain demos | Demonstrate end-to-end DFM loops in concrete scientific or engineering settings | Reproducible demos linked from this repository | Planned |
 
-## Phase 2 — Expand
+The tracker describes the public interface of the program. A milestone may link to one or more independent implementation repositories.
 
-Connect DFM with more domains and real-world environments:
+## Required Information for Each Update
 
-- biology
-- chemistry
-- materials
-- medicine
-- robotics
-- mathematics
-- physics
-- climate
-- machine-learning research
-- engineering and additional domains
+Every milestone update should include:
 
-Academic and industry collaborations can coexist at this stage.
+1. **Scope** — the capability and module boundary.
+2. **Implementation** — code or repository link.
+3. **Demo** — the shortest reproducible path to see the capability work.
+4. **Evaluation** — what is measured and what evidence is currently available.
+5. **Limitations** — what is not yet supported.
+6. **Contribution entry point** — specific issues or tasks open to developers.
+7. **Last updated** — the date of the latest material change.
 
-## Phase 3 — Discover
+## Release Index
 
-Move from building discovery systems toward demonstrating:
-
-- externally validated discoveries
-- real-world scientific and engineering impact
-- transferable discovery operations
-- continual improvement across tasks and domains
-- bounded recursive improvement of discovery infrastructure
-
-> **Framework → System → Algorithms → Environments → Domains → Discoveries**
+Public codebases, demos, and developer documentation will be listed here as they are released.

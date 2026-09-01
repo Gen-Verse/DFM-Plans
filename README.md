@@ -1,143 +1,41 @@
-# Discovery Foundation Models
+# DFM Plans
 
-### A Long-Term Open Network for AI × Discovery
+### Technical roadmap and developer entry point for Discovery Foundation Models
 
-> **Connecting frontier AI, domain expertise, and real-world discovery.**
+[中文](README_CN.md) · [Implementation Milestones](ROADMAP.md) · [Contributing](CONTRIBUTING.md) · [Technical Collaboration](COLLABORATE.md)
 
-[中文](README_CN.md) · [Open Problems](OPEN_PROBLEMS.md) · [Collaborate](COLLABORATE.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
+This repository is the public technical coordination point for **Discovery Foundation Models (DFMs)**. It tracks the implementation of DFM system modules and capabilities, links open-source releases and demos, and provides a clear entry point for developers who want to build with us.
 
-**Contact:** [yang@phai-labs.com](mailto:yang@phai-labs.com) — research collaboration, domain partnerships, industry partnerships, and funded projects.
+DFM is defined by discovery capabilities rather than a single model checkpoint or architecture. Accordingly, this repository is a **roadmap and release index**, not necessarily one monolithic codebase. Individual implementations may live in separate repositories and will be linked here as they become available.
 
-<p align="center">
-  <img src="assets/fullpicture.png" width="100%" alt="Discovery Foundation Models Overview">
-</p>
+## What This Repository Tracks
 
-<p align="center">
-  <em>DFM Paradigm → Zetema System → DFM Community</em>
-</p>
+- **Implementation milestones** — what is planned, in development, or released across the DFM system.
+- **Open-source releases** — code, models, environments, evaluation tools, and reproducible artifacts.
+- **Demos** — minimal examples and end-to-end demonstrations of DFM capabilities.
+- **Developer collaboration** — technical issues, module interfaces, integrations, and contribution opportunities.
 
----
+## Technical Scope
 
-## About
+| Area | Examples |
+| --- | --- |
+| Core system | Research state, orchestration, provenance, memory, branching, and rollback |
+| Discovery modules | Problem discovery and formulation, representation construction, hypothesis formation, intervention and experimentation, evidence-grounded revision |
+| Training and improvement | Scientific post-training, process supervision, discovery skill learning, and continual improvement |
+| Environments and evaluation | Digital, simulation, and physical grounding; process, transfer, efficiency, and control evaluation |
+| Demos and integrations | Reproducible capability demos, domain adapters, tools, APIs, and external integrations |
 
-**Discovery Foundation Models (DFMs)** aim to move foundation models beyond solving predefined tasks toward **open-ended discovery**: discovering valuable problems, constructing and revising representations, forming testable hypotheses, designing informative interventions, revising under external evidence, and continually improving discovery itself.
+The implementation roadmap will evolve module by module. A capability is considered released only when its public artifact, usage instructions, and current limitations are linked from the milestone tracker.
 
-**DFM Community** is the long-term network around this vision. It connects **AI researchers, domain scientists, infrastructure builders, research labs, companies, and real-world environments**.
+## Start Here
 
-**DFM Commons** is the open resource layer built by the community: algorithms, infrastructure, environments, benchmarks, datasets, open problems, and reproducible research artifacts.
+- Check [ROADMAP.md](ROADMAP.md) for the current implementation status.
+- Use [GitHub Issues](../../issues) for technical questions, proposals, and integration requests.
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting code, demos, documentation, or evaluation artifacts.
+- See [COLLABORATE.md](COLLABORATE.md) for larger technical collaborations.
 
-> **Paper defines it. Zetema builds it. DFM Community expands it.**
+## Contact
 
----
+For technical collaboration related to DFM implementations, open-source releases, demos, or developer integration:
 
-## What We Support
-
-For substantial contributions and important research directions, we actively support:
-
-- **Research collaboration & publication** — including flagship DFM work, independent research tracks, and potential collaborations with appropriate leading journals, companion journals, conferences, and interdisciplinary projects.
-- **Research funding** — including compute, engineering support, dataset construction, simulation, annotation, experimental expenses, and wet-lab costs.
-- **Academic & real-world partnerships** — from open research to joint R&D, domain challenges, pilot studies, and deployment-oriented validation.
-- **Founding Contributor recognition** for major early contributors to the DFM Community.
-
-Authorship, publication, and research credit are always based on actual contribution and normal independent peer review.
-
----
-
-## What Is a DFM?
-
-Most foundation models begin after humans have already specified the problem, representation, objective, tools, and evaluator. **Discovery starts earlier.**
-
-We formulate DFM around seven coupled capabilities:
-
-**Problem Discovery → Problem Formulation → Representation Construction → Hypothesis Formation → Intervention & Experimentation → Evidence-Grounded Revision → Continual Discovery Improvement**
-
-Our goal is to make discovery **learnable, executable, externally grounded, and systematically evaluable**.
-
----
-
-## How to Join
-
-### Build the Intelligence
-
-Work on discovery agents, scientific RL, post-training, representation construction, intervention design, failure attribution, world models, process-level scaling, and continual discovery skills.
-
-### Build the Infrastructure
-
-Build research-state systems, branching and rollback, memory, provenance, tools, environments, verification, experimental gating, Dry/Wet-Lab interfaces, and evaluation infrastructure.
-
-### Bring a World
-
-You do not need to be an AI researcher. We welcome experts from biology, chemistry, materials, medicine, robotics, physics, mathematics, climate, engineering, social science, and beyond.
-
-Contribute **scientific problems, data, simulators, benchmarks, experimental environments, protocols, validators, wet-lab access, or domain expertise**.
-
-> **Bring an algorithm. Bring infrastructure. Bring a domain. Bring a real problem.**
-
----
-
-## Repository Map
-
-The repository is organized as the full DFM research stack from system foundations to real-world discovery:
-
-```text
-DiscoveryModels/
-├── zetema/         # Reference DFM system organization
-├── training/       # Capability formation and scientific post-training
-├── environments/   # Digital, simulation, and physical grounding
-├── evaluation/     # Process, transfer, efficiency, and controls
-├── benchmarks/     # Discovery-oriented benchmark development
-├── data/           # Trajectories, interactions, and domain data
-├── domains/        # AI × scientific / engineering domain tracks
-├── examples/       # Reproducible demos and discovery traces
-├── docs/           # Extended documentation
-├── community/      # DFM Community, partners, and funded challenges
-└── discoveries/    # Future externally validated discovery records
-```
-
-Many directories are intentionally visible before their first release so the community can see the **full research map** and join early. Each directory README states its scope and current status.
-
----
-
-## Open Research Map
-
-We organize open problems across the seven DFM capabilities and four research horizons:
-
-**Digital → Simulation-Grounded → Physical → Recursive**
-
-Every intersection may require new:
-
-**Algorithms × Infrastructure × Environments × Benchmarks × Domains**
-
-See [`OPEN_PROBLEMS.md`](OPEN_PROBLEMS.md) for the initial research agenda.
-
----
-
-## What We Will Open Source
-
-We will progressively release:
-
-- DFM / Zetema infrastructure
-- discovery algorithms and training recipes
-- scientific RL and process supervision
-- research environments and benchmarks
-- evaluation protocols
-- Discovery Skill Memory
-- domain-specific practices and lessons
-
-This is a progressive research effort, not a one-time code dump.
-
----
-
-## Open, but Not Uncurated
-
-DFM Community is open to participation while maintaining high scientific standards. We value:
-
-**Reproducibility · Provenance · External Grounding · Falsification · Independent Validation · Transfer**
-
-A contribution should be judged by **what it enables and what survives validation**. Negative results, counterexamples, failed replications, and challenges to the current DFM framework are also valuable contributions.
-
-> **Open to everyone. Promoted by evidence.**
-
-### Discovery is too broad for any single lab.
-
-**Help us build the Discovery Network.**
+**[yang@phai-labs.com](mailto:yang@phai-labs.com)**
