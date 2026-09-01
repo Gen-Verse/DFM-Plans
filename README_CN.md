@@ -2,9 +2,11 @@
 
 ### Discovery Foundation Models 技术路线图与开发者入口
 
-[English](README.md) · [实现里程碑](ROADMAP.md) · [贡献指南](CONTRIBUTING.md) · [技术合作](COLLABORATE.md)
+[English](README.md) · [实现里程碑](ROADMAP.md) · [贡献指南](CONTRIBUTING.md)
 
 这个仓库是 **Discovery Foundation Models（DFMs）** 的技术对接入口。后续会持续更新 DFM 系统不同模块与能力的实现进展，汇总开源发布与 Demo，并为开发者提供明确的参与和协作路径。
+
+DFM 的整体愿景、科学背景、科学家合作计划和申请入口将由官方网站负责承接，相关链接上线后会放在这里。这个仓库只聚焦技术实现与开发者协作。
 
 DFM 由一组发现能力定义，而不是某一个模型 checkpoint 或固定架构。因此，这里主要承担的是**技术路线图与发布索引**，不要求所有实现都集中在同一个代码仓库中。不同模块的独立仓库会在发布后统一链接到这里。
 
@@ -25,14 +27,15 @@ DFM 由一组发现能力定义，而不是某一个模型 checkpoint 或固定�
 | 环境与评测 | Digital、Simulation 与 Physical Grounding；Process、Transfer、Efficiency 与 Control Evaluation |
 | Demo 与集成 | 可复现能力 Demo、Domain Adapter、工具、API 与外部系统集成 |
 
-我们会按照模块逐步推进。只有当公开资产、使用说明和当前局限都已明确链接时，对应能力才会在里程碑中标记为已发布。
+我们会按照模块逐步推进。只有当公开资产、使用说明、评测证据和当前局限都已明确链接时，对应能力才会在里程碑中标记为已发布。
 
 ## 从这里开始
 
 - 在 [ROADMAP.md](ROADMAP.md) 查看当前实现状态。
 - 通过 [GitHub Issues](../../issues) 提出技术问题、模块建议与集成需求。
 - 提交代码、Demo、文档或评测资产前，请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
-- 更完整的技术协作方式见 [COLLABORATE.md](COLLABORATE.md)。
+
+只有当实际实现、接口规范或可运行 Demo 出现时，仓库才会新增相应目录。
 
 ## 联系方式
 

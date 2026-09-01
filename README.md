@@ -2,9 +2,11 @@
 
 ### Technical roadmap and developer entry point for Discovery Foundation Models
 
-[中文](README_CN.md) · [Implementation Milestones](ROADMAP.md) · [Contributing](CONTRIBUTING.md) · [Technical Collaboration](COLLABORATE.md)
+[中文](README_CN.md) · [Implementation Milestones](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
 This repository is the technical coordination point for **Discovery Foundation Models (DFMs)**. It tracks the implementation of DFM system modules and capabilities, links open-source releases and demos, and provides a clear entry point for developers who want to build with us.
+
+The official DFM website will explain the broader vision, scientific context, scientist collaboration program, and application process. Those links will be added here when available. This repository stays focused on implementation and developer coordination.
 
 DFM is defined by discovery capabilities rather than a single model checkpoint or architecture. Accordingly, this repository is a **roadmap and release index**, not necessarily one monolithic codebase. Individual implementations may live in separate repositories and will be linked here as they become available.
 
@@ -25,14 +27,15 @@ DFM is defined by discovery capabilities rather than a single model checkpoint o
 | Environments and evaluation | Digital, simulation, and physical grounding; process, transfer, efficiency, and control evaluation |
 | Demos and integrations | Reproducible capability demos, domain adapters, tools, APIs, and external integrations |
 
-The implementation roadmap will evolve module by module. A capability is considered released only when its public artifact, usage instructions, and current limitations are linked from the milestone tracker.
+The roadmap will evolve module by module. A capability is considered released only when its public artifact, usage instructions, evaluation evidence, and current limitations are linked from the milestone tracker.
 
 ## Start Here
 
 - Check [ROADMAP.md](ROADMAP.md) for the current implementation status.
 - Use [GitHub Issues](../../issues) for technical questions, proposals, and integration requests.
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting code, demos, documentation, or evaluation artifacts.
-- See [COLLABORATE.md](COLLABORATE.md) for larger technical collaborations.
+
+New directories will be added only when they contain an actual implementation, specification, or runnable demo.
 
 ## Contact
 

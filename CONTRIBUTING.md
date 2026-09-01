@@ -13,10 +13,12 @@ Useful contributions include:
 - documentation, examples, and integration guides;
 - bug reports, failed cases, and technically grounded design feedback.
 
+Existing open-source projects can be connected to a DFM milestone without being moved into this repository. Relevant codebases, demos, and documentation will be linked through the roadmap and release index.
+
 ## Contribution Flow
 
 1. Check [ROADMAP.md](ROADMAP.md) and existing Issues.
-2. Open an Issue before starting a large change. Describe the target module, proposed interface, expected artifact, and how it will be tested.
+2. Open an Issue before starting a large change. Describe the target module, proposed interface, intended public artifact, validation or demo, and key dependencies.
 3. Keep pull requests focused on one module, demo, or integration.
 4. Link the relevant milestone or Issue.
 5. Include reproduction instructions and clearly state known limitations.
@@ -40,4 +42,4 @@ Do not submit confidential, proprietary, personally identifiable, or otherwise r
 
 We prioritize inspectable interfaces, reproducibility, provenance, external evidence, and evaluation beyond a single successful example. Negative results and well-documented failure cases are welcome when they improve the system design.
 
-For technical questions, use GitHub Issues. For larger or non-public integration discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+For technical questions and public proposals, use GitHub Issues. For larger or non-public integration discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
