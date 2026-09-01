@@ -4,7 +4,7 @@
 
 [English](README.md) · [实现里程碑](ROADMAP.md) · [贡献指南](CONTRIBUTING.md) · [技术合作](COLLABORATE.md)
 
-这个仓库是 **Discovery Foundation Models（DFMs）** 的公开技术对接入口。后续会持续更新 DFM 系统不同模块与能力的实现进展，汇总开源发布与 Demo，并为开发者提供明确的参与和协作路径。
+这个仓库是 **Discovery Foundation Models（DFMs）** 的技术对接入口。后续会持续更新 DFM 系统不同模块与能力的实现进展，汇总开源发布与 Demo，并为开发者提供明确的参与和协作路径。
 
 DFM 由一组发现能力定义，而不是某一个模型 checkpoint 或固定架构。因此，这里主要承担的是**技术路线图与发布索引**，不要求所有实现都集中在同一个代码仓库中。不同模块的独立仓库会在发布后统一链接到这里。
 
