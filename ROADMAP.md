@@ -1,43 +1,40 @@
-# DFM Implementation Milestones
+# DFM Research Directions and Milestones
 
-This file is the live technical tracker for DFM system development. It will be updated as module scope, implementations, demos, evaluation results, and public repositories become available.
+This roadmap tracks independent research directions motivated by the Discovery Foundation Models framework.
 
-There is no fixed release calendar yet. Dates will be added only when a milestone has a concrete implementation plan.
+The directions are conceptually connected, but they are not required to become one integrated engineering system. A direction may produce its own paper, repository, model, dataset, benchmark, or demo.
 
 ## Status
 
-- **Planned** — scope identified; implementation has not been publicly started.
-- **In Development** — implementation or internal validation is underway.
-- **Preview** — an early artifact or demo is available, but interfaces may still change.
-- **Released** — a public artifact, usage instructions, and known limitations are available.
+- **Planned** — the research scope has been identified.
+- **In Development** — active research or implementation is underway.
+- **Preview** — an early artifact or result is available, but may change substantially.
+- **Released** — a public artifact and sufficient documentation are available.
 
-## Milestone Tracker
+## Direction Tracker
 
-| ID | Module | Target | Expected public artifact | Status |
+| ID | Direction | Research scope | Expected public outputs | Status |
 | --- | --- | --- | --- | --- |
-| M0 | Technical roadmap | Define module boundaries, release criteria, and contribution flow | This roadmap and developer entry point | Released |
-| M1 | Minimal discovery loop | Connect Research State, proposal, action or intervention, evidence, and revision in one inspectable loop | Reference implementation and minimal demo | Planned |
-| M2 | Problem proposer | Implement problem discovery and problem formulation from structured research context | Code, demo, and initial evaluation | Planned |
-| M3 | Representation and hypothesis | Construct useful representations and generate testable hypotheses | Module implementation and capability demo | Planned |
-| M4 | Evidence-grounded revision | Add verification, experimental gating, failure attribution, and evidence-based updates | Revision traces, verifier interface, and evaluation | Planned |
-| M5 | Continual discovery improvement | Learn reusable discovery operations and update skills across tasks | Skill or memory module and cross-task evaluation | Planned |
-| M6 | Environments and evaluation | Connect digital, simulation, and physical environments with process and transfer evaluation | Environment adapters, benchmark tasks, and evaluation tools | Planned |
-| M7 | Domain demos | Demonstrate end-to-end DFM loops in concrete scientific or engineering settings | Reproducible demos linked from this repository | Planned |
+| R1 | [Proposer](proposer/) | Problem discovery, formulation, representation construction, and hypothesis formation | Models, training data or recipes, evaluation, and demos | In Development |
+| R2 | [Experimenter](experimenter/) | Intervention design, experimentation, tool use, simulation, and physical grounding | Agents, environments, experimental workflows, and case studies | Planned |
+| R3 | [Reviser](reviser/) | Verification, falsification, failure attribution, and evidence-grounded revision | Verifiers, revision methods, traces, and evaluations | Planned |
+| R4 | [Continual Improvement](continual-improvement/) | Reusable discovery skills, memory evolution, transfer, and continual improvement | Learning methods, memory or skill artifacts, and cross-task studies | Planned |
+| R5 | [Training](training/) | Data construction, scientific trajectories, SFT, RL, and process supervision | Datasets, training recipes, models, and infrastructure releases | Planned |
+| R6 | [Evaluation](evaluation/) | Capability, process, transfer, efficiency, and real-world discovery evaluation | Tasks, benchmarks, protocols, metrics, and analysis | Planned |
+| R7 | [Demos](demos/) | Independent DFM-inspired examples across domains | Reproducible demos, reports, and linked repositories | Planned |
 
-The tracker describes the public interface of the program. A milestone may link to one or more independent implementation repositories.
+No fixed release dates are implied. Dates will be added only when a direction has a concrete public milestone.
 
-## Required Information for Each Update
+## Update Format
 
-Every milestone update should include:
+Each direction should report:
 
-1. **Scope** — the capability and module boundary.
-2. **Implementation** — code or repository link.
-3. **Demo** — the shortest reproducible path to see the capability work.
-4. **Evaluation** — what is measured and what evidence is currently available.
-5. **Limitations** — what is not yet supported.
-6. **Contribution entry point** — specific issues or tasks open to developers.
+1. **Research question** — what the work is trying to understand or build.
+2. **Current focus** — the nearest concrete milestone.
+3. **Public artifact** — paper, code, model, data, benchmark, or demo.
+4. **Evidence** — current evaluation or validation.
+5. **Limitations** — what is not yet established.
+6. **Links** — related repositories and project pages.
 7. **Last updated** — the date of the latest material change.
 
-## Release Index
-
-Public codebases, demos, and developer documentation will be listed here as they are released.
+There is no requirement for different directions to use shared interfaces or to be deployed together.

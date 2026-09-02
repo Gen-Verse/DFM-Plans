@@ -1,45 +1,47 @@
 # Contributing to DFM Plans
 
-This repository is the technical coordination point for DFM implementations, releases, demos, and integrations.
+DFM Plans coordinates independent research directions, open-source work, evaluation, and demos inspired by the Discovery Foundation Models framework.
+
+The directions are conceptually related, but contributions do not need to integrate with a unified DFM codebase or conform to a common system interface.
 
 ## Ways to Contribute
 
 Useful contributions include:
 
-- implementation of a defined DFM module or interface;
-- minimal and end-to-end demos;
-- environments, tools, adapters, and APIs;
-- evaluation tasks, metrics, and reproducibility tooling;
-- documentation, examples, and integration guides;
-- bug reports, failed cases, and technically grounded design feedback.
+- an independent project advancing one DFM research direction;
+- a model, algorithm, training method, dataset, or environment;
+- a benchmark, evaluation protocol, verifier, or reproducibility study;
+- a minimal or end-to-end demo;
+- a connection to an existing open-source project;
+- a bug report, negative result, failure case, or technically grounded critique;
+- documentation and integration guidance.
 
-Existing open-source projects can be connected to a DFM milestone without being moved into this repository. Relevant codebases, demos, and documentation will be linked through the roadmap and release index.
+Relevant work may live in this repository or in an independent repository linked from the appropriate direction page.
 
 ## Contribution Flow
 
-1. Check [ROADMAP.md](ROADMAP.md) and existing Issues.
-2. Open an Issue before starting a large change. Describe the target module, proposed interface, intended public artifact, validation or demo, and key dependencies.
-3. Keep pull requests focused on one module, demo, or integration.
-4. Link the relevant milestone or Issue.
+1. Choose the closest research direction and review its README.
+2. Check [ROADMAP.md](ROADMAP.md) and existing Issues.
+3. Open an Issue describing the research question, intended artifact, evidence or evaluation, and expected public release.
+4. Keep pull requests focused on one direction or artifact.
 5. Include reproduction instructions and clearly state known limitations.
 
-Code may live in this repository or in a linked implementation repository, depending on the module.
+## Artifact Checklist
 
-## Pull Request Checklist
+A contribution should make clear:
 
-A technical contribution should make clear:
-
-- what capability or interface it implements;
-- how to run the code or demo;
+- which DFM research direction it advances;
+- what research question or capability it addresses;
+- how to access or run the artifact;
 - what dependencies and data are required;
-- what evidence shows that it works;
-- what remains incomplete or unstable;
+- what evidence supports the claims;
+- what remains incomplete or unvalidated;
 - whether any data, model, or third-party license restricts reuse.
 
 Do not submit confidential, proprietary, personally identifiable, or otherwise restricted data.
 
 ## Technical Standard
 
-We prioritize inspectable interfaces, reproducibility, provenance, external evidence, and evaluation beyond a single successful example. Negative results and well-documented failure cases are welcome when they improve the system design.
+We prioritize inspectable claims, reproducibility, provenance, external evidence, falsification, and transfer beyond a single successful example. Negative results and well-documented failures are welcome when they sharpen the research direction.
 
-For technical questions and public proposals, use GitHub Issues. For larger or non-public integration discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+For public proposals, use GitHub Issues. For larger or non-public discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
