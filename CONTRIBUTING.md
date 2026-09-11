@@ -1,47 +1,37 @@
-# Contributing to DFM Plans
+# Maintaining the DFM Research Index
 
-DFM Plans coordinates independent research directions, open-source work, evaluation, and demos inspired by the Discovery Foundation Models framework.
+DFM-Plans collects the research map, milestones, and links to independent DFM-related projects. Each research project has its own repository for implementation, documentation, technical issues, and contributions.
 
-The directions are conceptually related, but contributions do not need to integrate with a unified DFM codebase or conform to a common system interface.
+## Updates Welcome Here
 
-## Ways to Contribute
+- Add or update a project entry and its links.
+- Record a research milestone or an available paper, repository, model, dataset, benchmark, or demo.
+- Correct a description, release status, or broken link.
+- Improve the research map, navigation, or English and Chinese documentation.
 
-Useful contributions include:
+For implementation contributions, bug reports, reproduction questions, and project-specific research discussions, use the relevant project's repository.
 
-- an independent project advancing one DFM research direction;
-- a model, algorithm, training method, dataset, or environment;
-- a benchmark, evaluation protocol, verifier, or reproducibility study;
-- a minimal or end-to-end demo;
-- a connection to an existing open-source project;
-- a bug report, negative result, failure case, or technically grounded critique;
-- documentation and integration guidance.
+## Suggest a Project or Update
 
-Relevant work may live in this repository or in an independent repository linked from the appropriate direction page.
+Open an [Issue](https://github.com/Gen-Verse/DFM-Plans/issues) or a focused documentation pull request with:
 
-## Contribution Flow
+1. **Project and research question** — a short description of the work.
+2. **Relevant directions** — one or more areas in the research map.
+3. **Canonical links** — the independent repository, paper, project page, or other public resources.
+4. **Milestone and availability** — what has been announced and what can currently be accessed.
+5. **Evidence and limitations** — links to the project's evaluation and known limitations.
+6. **Last updated** — the date of the material change.
 
-1. Choose the closest research direction and review its README.
-2. Check [ROADMAP.md](ROADMAP.md) and existing Issues.
-3. Open an Issue describing the research question, intended artifact, evidence or evaluation, and expected public release.
-4. Keep pull requests focused on one direction or artifact.
-5. Include reproduction instructions and clearly state known limitations.
+Keep implementation files and research assets in the project's own repository. Link to its documentation for dependencies, reproduction instructions, evaluation details, and licenses.
 
-## Artifact Checklist
+## Index Conventions
 
-A contribution should make clear:
+- Keep project names, dates, and availability consistent across [README.md](README.md), [README_CN.md](README_CN.md), and [ROADMAP.md](ROADMAP.md).
+- Distinguish a research announcement from the availability of code, models, or data.
+- Add working public links when resources become available; use plain text for pending resources.
+- A project may appear under several research directions.
+- Each independent project maintains its own contribution guidance and license.
 
-- which DFM research direction it advances;
-- what research question or capability it addresses;
-- how to access or run the artifact;
-- what dependencies and data are required;
-- what evidence supports the claims;
-- what remains incomplete or unvalidated;
-- whether any data, model, or third-party license restricts reuse.
+Do not submit confidential, proprietary, personally identifiable, or otherwise restricted information.
 
-Do not submit confidential, proprietary, personally identifiable, or otherwise restricted data.
-
-## Technical Standard
-
-We prioritize inspectable claims, reproducibility, provenance, external evidence, falsification, and transfer beyond a single successful example. Negative results and well-documented failures are welcome when they sharpen the research direction.
-
-For public proposals, use GitHub Issues. For larger or non-public discussions, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**.
+For broader collaboration inquiries, contact **[yang@phai-labs.com](mailto:yang@phai-labs.com)**. Scientists can find the collaboration program through the [main README](README.md#scientist-collaboration).

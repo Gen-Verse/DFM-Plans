@@ -1,41 +1,84 @@
-# DFM Plans
+# Discovery Foundation Models
 
-### Research roadmap and developer entry point for Discovery Foundation Models
+### Research Map, Milestones & Open-Source Project Index
 
-[中文](README_CN.md) · [Research Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
+[中文](README_CN.md) · [Technical Report](#technical-report) · [Upcoming Work](#upcoming-work) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](#scientist-collaboration)
 
-This repository tracks future research directions, open-source work, demos, and developer collaboration around **Discovery Foundation Models (DFMs)**.
+**From answering questions and executing tasks to discovering what comes next.**
 
-The official DFM website will explain the broader vision, scientific context, scientist collaboration program, and application process. Those links will be added here when available. This repository stays focused on the technical research map.
+Discovery Foundation Models (DFMs) explore how AI can identify valuable unknowns, formulate problems, construct representations and hypotheses, gather external evidence, and improve its ability to discover across tasks.
 
-## How to Read This Repository
+Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings together the DFM technical report, research map, project announcements, and links to open research. **Individual research projects will be developed and released in their own repositories.** DFM-Plans maintains the overview, milestones, and navigation to those projects.
 
-The directions below are connected **conceptually** through the DFM discovery loop. They are not required to share one codebase, a unified interface, or a single engineering system. Each direction may be developed, evaluated, and open-sourced independently.
+## Technical Report
 
-The directories are public markers of intended research scope. The presence of a directory does not mean that an implementation has already been released.
+**Discovery Foundation Models** — arXiv link forthcoming.
 
-## Future Research Directions
+The report organizes seven core capabilities: **Problem Discovery, Problem Formulation, Representation Construction, Hypothesis Formation, Intervention & Experimentation, Evidence-Grounded Revision, and Continual Discovery Improvement**.
+
+Its reference architecture, **Zetema**, explores how explicit research states, memory, tools, experimental environments, verification, and human oversight can support a recursive discovery loop. It is a research design; implementation and validation progress will be reported through the linked projects.
+
+## Upcoming Work
+
+The following research introductions are planned for September 2026:
+
+| Planned introduction | Project | Research focus | Resources |
+| --- | --- | --- | --- |
+| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | Links forthcoming |
+| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | Links forthcoming |
+| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | Links forthcoming |
+
+These projects address complementary research questions around **interaction feedback, reusable environments, and world-state prediction**. Their relationships will be explored progressively, with each project evaluated and released independently.
+
+Introduction dates refer to research announcements. Availability of papers, code, models, datasets, and demos will be tracked separately through actual public links in this index and [ROADMAP.md](ROADMAP.md).
+
+## Research Map
+
+From **Chat** to **Code** to **Discovery Intelligence**, the experience available to AI expands from recorded knowledge to action and feedback, and then to scientific inquiry. Scientific experience includes how problems emerge, hypotheses change, tools are used, experiments fail, and evidence revises a researcher's understanding.
+
+Our research agenda explores the **Science Infrastructure** needed to record, execute, evaluate, and learn from that experience:
+
+| Layer | Research focus | Related work or direction |
+| --- | --- | --- |
+| **1 · Science Data** | Organize scientific data, research trajectories, and feedback into resources for learning | Data construction and scientific post-training |
+| **2 · Scientific Environments** | Make scientific tools, tasks, and evaluation criteria executable and reusable | ScienceIDE |
+| **3 · Scientific World Models** | Learn scientific states and predict how they change under interventions | JEPA Anything |
+| **4 · Discovery Reasoning** | Organize problems, hypotheses, experiments, and evidence around an evolving research state | Zetema reference architecture and related research |
+| **5 · Scientist Interaction** | Connect scientist judgment and feedback to ongoing research and learning | ScienceBuddy |
+
+These layers describe a research agenda and intended relationships. Projects may advance independently and need not share one codebase or a unified interface. Predictive models can support candidate screening and approximate assessment; scientific claims still require appropriate independent evidence.
+
+## Research Directions
+
+The directories below provide scope descriptions and project links. They serve as an index; implementations, documentation, and project-specific discussions belong in the corresponding independent repositories.
 
 | Direction | Scope |
 | --- | --- |
-| [Proposer](proposer/) | Problem discovery, problem formulation, representation construction, and hypothesis formation |
-| [Experimenter](experimenter/) | Intervention, experimentation, tool use, simulation, and Dry/Wet grounding |
-| [Reviser](reviser/) | Verification, experimental evidence, falsification, failure attribution, and evidence-grounded revision |
-| [Continual Improvement](continual-improvement/) | Discovery skills, memory evolution, cross-task transfer, and continual discovery improvement |
-| [Training](training/) | Data construction, trajectories, SFT, RL, process supervision, and scientific post-training |
-| [Evaluation](evaluation/) | Capability evaluation, discovery-process evaluation, transfer, efficiency, and real-world validation |
-| [Demos](demos/) | Independent examples and demonstrations across scientific and engineering domains |
+| [Proposer](proposer/) | Problem discovery, formulation, representation construction, and hypothesis formation |
+| [Experimenter](experimenter/) | Interventions, tools, simulations, experiments, and Dry/Wet grounding |
+| [Reviser](reviser/) | Verification, falsification, failure attribution, and evidence-grounded revision |
+| [Continual Improvement](continual-improvement/) | Discovery skills, memory evolution, and cross-task transfer |
+| [Training](training/) | Scientific data, trajectories, SFT, RL, and process supervision |
+| [Evaluation](evaluation/) | Capability, research-process, transfer, efficiency, and real-world validation |
+| [Demos](demos/) | Links to scientific and engineering demonstrations and case studies |
 
-A direction may lead to one or more independent papers, repositories, models, datasets, benchmarks, or demos. Released artifacts will be linked from the corresponding directory and [ROADMAP.md](ROADMAP.md).
+A project can contribute to several directions. See [ROADMAP.md](ROADMAP.md) for milestones and available resources.
 
-## Start Here
+## Scientist Collaboration
 
-- Check [ROADMAP.md](ROADMAP.md) for the current status of each direction.
-- Use [GitHub Issues](../../issues) for technical questions, research proposals, and open-source collaboration.
-- Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a project or submitting an artifact.
+We welcome scientists, research teams, and experimental platforms with important open questions, scientific data, executable environments, or opportunities for real-world validation.
 
-## Contact
+- **[Apply to the DFM Scientist Collaboration Program](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
+- Program introduction and dedicated webpage: links forthcoming.
 
-For technical collaboration related to DFM research, open-source work, evaluation, or demos:
+## Developer Navigation & Index Updates
 
-**[yang@phai-labs.com](mailto:yang@phai-labs.com)**
+- Follow each project's repository for code, installation, technical questions, issues, and contributions.
+- Use [Issues in this repository](https://github.com/Gen-Verse/DFM-Plans/issues) to suggest a project for inclusion, correct a link, or discuss the overall research map.
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) to submit an index or milestone update.
+
+## Citation & Contact
+
+For research use, cite the relevant technical report or individual project paper. Citation details will be linked as those resources become available.
+
+**PhAI Labs** · [Website](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
