@@ -11,10 +11,10 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 本仓库由 **[PhAI Labs](https://phai-labs.com/)** 发起，汇总 DFM 技术报告、研究版图、成果介绍与开放研究入口。**各项研究工作将在独立 GitHub 仓库中开发和发布；DFM-Plans 负责汇总、里程碑更新与项目导航。**
 
 <p align="center">
-  <img src="assets/dfm-overview.png" width="1000" alt="DFM 总览：Chat、Agent/Coding 与 Discovery 的演进，基础模型与发现基础模型的区别，以及递归发现闭环。">
+  <img src="assets/dfm-diagram-en.webp" width="1000" alt="DFM 总览：Chat、Agent/Coding 与 Discovery 的演进，基础模型与发现基础模型的区别，以及递归发现闭环。">
 </p>
 
-*DFM 技术报告图 1：从任务求解走向发现智能。*
+*DFM 总览：从任务求解走向发现智能。*
 
 ## 技术报告
 

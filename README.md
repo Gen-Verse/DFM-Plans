@@ -11,10 +11,10 @@ Discovery Foundation Models (DFMs) explore how AI can identify valuable unknowns
 Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings together the DFM technical report, research map, project announcements, and links to open research. **Individual research projects will be developed and released in their own repositories.** DFM-Plans maintains the overview, milestones, and navigation to those projects.
 
 <p align="center">
-  <img src="assets/dfm-overview.png" width="1000" alt="DFM overview: Chat, Agent/Coding, and Discovery; foundation models and discovery foundation models; recursive discovery loop.">
+  <img src="assets/dfm-diagram-en.webp" width="1000" alt="DFM overview: Chat, Agent/Coding, and Discovery; foundation models and discovery foundation models; recursive discovery loop.">
 </p>
 
-*Figure 1 from the DFM technical report: from task solving to discovery intelligence.*
+*DFM overview: from task solving to discovery intelligence.*
 
 ## Technical Report
 

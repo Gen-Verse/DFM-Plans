@@ -2,6 +2,6 @@
 
 **English** · [中文](README_CN.md)
 
-[dfm-overview.png](dfm-overview.png) is Figure 1, “From task solving to discovery intelligence,” extracted from the DFM technical report at its original resolution (3000 × 1980). Both language versions of the main README use this original English figure.
+[dfm-diagram-en.webp](dfm-diagram-en.webp) is the official DFM overview visual from the PhAI Labs website. It presents the transition from task solving to discovery intelligence and the recursive discovery loop. Both language versions of the main README use this asset.
 
 [← DFM overview](../README.md)
