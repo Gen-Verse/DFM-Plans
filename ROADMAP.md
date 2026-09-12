@@ -8,13 +8,16 @@ The directions are conceptually connected, but they are not required to become o
 
 | Planned introduction | Project | Research focus | Paper | Repository | Other resources |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-16 | ScienceBuddy | Scientist interaction, research feedback, and continual improvement | Forthcoming | Forthcoming | Links to be added when available |
-| 2026-09-17 | ScienceIDE | Executable, verifiable, and reusable scientific environments | Forthcoming | Forthcoming | Links to be added when available |
-| 2026-09-18 | JEPA Anything | Scientific state representations and prediction across domains | Forthcoming | Forthcoming | Links to be added when available |
+| 2026-09-16 | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) | Scientist interaction, research feedback, and continual improvement | Forthcoming | [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · Public release forthcoming | Links to be added when available |
+| 2026-09-17 | [ScienceIDE](https://github.com/Gen-Verse/ScienceIDE) | Executable, verifiable, and reusable scientific environments | Forthcoming | [GitHub](https://github.com/Gen-Verse/ScienceIDE) · Public release forthcoming | Links to be added when available |
+| 2026-09-18 | [JEPA Anything](https://github.com/Gen-Verse/JEPA-Anything) | Scientific state representations and prediction across domains | Forthcoming | [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · Public release forthcoming | Links to be added when available |
 
 These are planned research introduction dates. Papers, code, models, data, and demos have separate availability; each public resource will receive its own link.
 
 ## Framework Resources
+
+- **[PhAI Labs website](https://phai-labs.com/)**
+- **[Scientist collaboration program](https://phai-labs.com/collaborate/)**
 
 - **DFM technical report:** arXiv link forthcoming.
 - **Zetema:** reference architecture described in the report; implementation and validation progress will be tracked through independent projects.

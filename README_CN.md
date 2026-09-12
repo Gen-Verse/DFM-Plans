@@ -2,7 +2,7 @@
 
 ### 技术研究版图、成果里程碑与开源项目索引
 
-[English](README.md) · [技术报告](#技术报告) · [近期成果预告](#近期成果预告) · [研究版图](#研究版图) · [研究路线图](ROADMAP.md) · [科学家合作计划](#科学家合作计划)
+[English](README.md) · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [近期成果预告](#近期成果预告) · [研究版图](#研究版图) · [研究路线图](ROADMAP.md) · [科学家合作计划](https://phai-labs.com/collaborate/)
 
 **从回答问题、执行任务，走向发现有价值的未知。**
 
@@ -24,9 +24,9 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 | 计划介绍日期 | 工作 | 研究重点 | 相关资源 |
 | --- | --- | --- | --- |
-| 2026 年 9 月 16 日 | **ScienceBuddy · AI 科研搭档** | 科学家交互、研究反馈与持续改进 | 链接待上线 |
-| 2026 年 9 月 17 日 | **ScienceIDE · 科学集成开发平台** | 可执行、可验证、可复用的科学环境 | 链接待上线 |
-| 2026 年 9 月 18 日 | **JEPA Anything · 跨领域科学世界模型** | 科学状态表征与干预后的状态变化预测 | 链接待上线 |
+| 2026 年 9 月 16 日 | **ScienceBuddy · AI 科研搭档** | 科学家交互、研究反馈与持续改进 | [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · 待公开 |
+| 2026 年 9 月 17 日 | **ScienceIDE · 科学集成开发平台** | 可执行、可验证、可复用的科学环境 | [GitHub](https://github.com/Gen-Verse/ScienceIDE) · 待公开 |
+| 2026 年 9 月 18 日 | **JEPA Anything · 跨领域科学世界模型** | 科学状态表征与干预后的状态变化预测 | [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · 待公开 |
 
 三个工作分别关注**交互反馈、可复用环境与世界状态预测**，未来将逐步探索彼此的协作关系，各自独立研究、评测和发布。
 
@@ -41,10 +41,10 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 | 层次 | 研究重点 | 对应工作或方向 |
 | --- | --- | --- |
 | **1 · Science Data** | 将科研数据、研究轨迹和反馈组织为可学习的资源 | 数据构建与科学后训练 |
-| **2 · Scientific Environments** | 将科学工具、任务与评价标准组织成可执行、可复用的环境 | ScienceIDE |
-| **3 · Scientific World Models** | 学习科学状态及其在干预下的变化 | JEPA Anything |
+| **2 · Scientific Environments** | 将科学工具、任务与评价标准组织成可执行、可复用的环境 | [ScienceIDE](https://github.com/Gen-Verse/ScienceIDE) |
+| **3 · Scientific World Models** | 学习科学状态及其在干预下的变化 | [JEPA Anything](https://github.com/Gen-Verse/JEPA-Anything) |
 | **4 · Discovery Reasoning** | 围绕持续更新的研究状态，组织问题、假设、实验与证据修正 | Zetema 参考架构及相关研究 |
-| **5 · Scientist Interaction** | 将科学家的判断与反馈纳入持续研究和学习过程 | ScienceBuddy |
+| **5 · Scientist Interaction** | 将科学家的判断与反馈纳入持续研究和学习过程 | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) |
 
 五层描述研究布局及预期协作关系。各项工作可独立推进，无须共享同一套代码或统一接口。世界模型预测可用于候选筛选与近似评估，科学主张仍需接受相应独立证据的检验。
 
@@ -69,7 +69,7 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 欢迎拥有重要开放问题、专业数据、可执行环境或真实实验验证条件的科学家、研究团队与实验平台参与合作。
 
 - **[申请加入 DFM 科学家合作计划](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
-- 合作计划介绍与专题网页：链接待上线。
+- **[DFM 科学家合作计划介绍](https://phai-labs.com/collaborate/)**
 
 ## 开发者导航与索引维护
 

@@ -2,7 +2,7 @@
 
 ### Research Map, Milestones & Open-Source Project Index
 
-[中文](README_CN.md) · [Technical Report](#technical-report) · [Upcoming Work](#upcoming-work) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](#scientist-collaboration)
+[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Upcoming Work](#upcoming-work) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
@@ -24,9 +24,9 @@ The following research introductions are planned for September 2026:
 
 | Planned introduction | Project | Research focus | Resources |
 | --- | --- | --- | --- |
-| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | Links forthcoming |
-| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | Links forthcoming |
-| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | Links forthcoming |
+| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · Public release forthcoming |
+| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | [GitHub](https://github.com/Gen-Verse/ScienceIDE) · Public release forthcoming |
+| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · Public release forthcoming |
 
 These projects address complementary research questions around **interaction feedback, reusable environments, and world-state prediction**. Their relationships will be explored progressively, with each project evaluated and released independently.
 
@@ -41,10 +41,10 @@ Our research agenda explores the **Science Infrastructure** needed to record, ex
 | Layer | Research focus | Related work or direction |
 | --- | --- | --- |
 | **1 · Science Data** | Organize scientific data, research trajectories, and feedback into resources for learning | Data construction and scientific post-training |
-| **2 · Scientific Environments** | Make scientific tools, tasks, and evaluation criteria executable and reusable | ScienceIDE |
-| **3 · Scientific World Models** | Learn scientific states and predict how they change under interventions | JEPA Anything |
+| **2 · Scientific Environments** | Make scientific tools, tasks, and evaluation criteria executable and reusable | [ScienceIDE](https://github.com/Gen-Verse/ScienceIDE) |
+| **3 · Scientific World Models** | Learn scientific states and predict how they change under interventions | [JEPA Anything](https://github.com/Gen-Verse/JEPA-Anything) |
 | **4 · Discovery Reasoning** | Organize problems, hypotheses, experiments, and evidence around an evolving research state | Zetema reference architecture and related research |
-| **5 · Scientist Interaction** | Connect scientist judgment and feedback to ongoing research and learning | ScienceBuddy |
+| **5 · Scientist Interaction** | Connect scientist judgment and feedback to ongoing research and learning | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) |
 
 These layers describe a research agenda and intended relationships. Projects may advance independently and need not share one codebase or a unified interface. Predictive models can support candidate screening and approximate assessment; scientific claims still require appropriate independent evidence.
 
@@ -69,7 +69,7 @@ A project can contribute to several directions. See [ROADMAP.md](ROADMAP.md) for
 We welcome scientists, research teams, and experimental platforms with important open questions, scientific data, executable environments, or opportunities for real-world validation.
 
 - **[Apply to the DFM Scientist Collaboration Program](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
-- Program introduction and dedicated webpage: links forthcoming.
+- **[DFM Scientist Collaboration Program — Overview](https://phai-labs.com/collaborate/)**
 
 ## Developer Navigation & Index Updates
 
