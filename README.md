@@ -1,14 +1,20 @@
 # Discovery Foundation Models
 
-### Research Map, Milestones & Open-Source Project Index
+### Discovery Intelligence · Research & Open Source
 
-[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Projects](#research-projects) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
+[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
 Discovery Foundation Models (DFMs) explore how AI can identify valuable unknowns, formulate problems, construct representations and hypotheses, gather external evidence, and improve its ability to discover across tasks.
 
 Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings together the DFM technical report, research map, project announcements, and links to open research. **Individual research projects will be developed and released in their own repositories.** DFM-Plans maintains the overview, milestones, and navigation to those projects.
+
+<p align="center">
+  <img src="assets/dfm-overview.png" width="1000" alt="DFM overview: Chat, Agent/Coding, and Discovery; foundation models and discovery foundation models; recursive discovery loop.">
+</p>
+
+*Figure 1 from the DFM technical report: from task solving to discovery intelligence.*
 
 ## Technical Report
 
@@ -18,35 +24,19 @@ The report organizes seven core capabilities: **Problem Discovery, Problem Formu
 
 Its reference architecture, **Zetema**, explores how explicit research states, memory, tools, experimental environments, verification, and human oversight can support a recursive discovery loop. It is a research design; implementation and validation progress will be reported through the linked projects.
 
-## Research Projects
+## Research Progress
 
-Three projects organize our current work: **scientist interaction, scientific environments, and scientific world models**. Each directory below provides a short project overview and links to its independent repository. Research introductions are planned for September 2026:
+From **Chat** to **Code** to **Discovery Intelligence**, AI learns from knowledge, action outcomes, and scientific inquiry. Our work builds the scientific data, environments, and feedback needed to support this transition.
 
-| Planned introduction | Project | Research focus | Resources |
-| --- | --- | --- | --- |
-| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | [Overview](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · Public release forthcoming |
-| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | [Overview](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) · Public release forthcoming |
-| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | [Overview](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · Public release forthcoming |
+| Direction | Project | Research focus | Planned introduction | Resources |
+| --- | --- | --- | --- | --- |
+| **Scientist Interaction** | **ScienceBuddy** | Scientist dialogue, research feedback, and continual improvement | September 16, 2026 | [Overview](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) |
+| **Scientific Environments** | **ScienceIDE** | Executable, verifiable, and reusable scientific environments for agent execution and model training | September 17, 2026 | [Overview](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) |
+| **Scientific World Models** | **JEPA Anything** | Scientific state representations and prediction of changes under interventions across domains | September 18, 2026 | [Overview](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) |
 
-These projects address complementary research questions around **interaction feedback, reusable environments, and world-state prediction**. Their relationships will be explored progressively, with each project evaluated and released independently.
+The projects connect **interaction feedback, reusable environments, and world-state prediction** within the broader DFM research agenda. Each is developed, evaluated, and released independently; scientific data and discovery reasoning are shared research themes.
 
-Introduction dates refer to research announcements. Availability of papers, code, models, datasets, and demos will be tracked separately through actual public links in this index and [ROADMAP.md](ROADMAP.md).
-
-## Research Map
-
-From **Chat** to **Code** to **Discovery Intelligence**, the experience available to AI expands from recorded knowledge to action and feedback, and then to scientific inquiry. Scientific experience includes how problems emerge, hypotheses change, tools are used, experiments fail, and evidence revises a researcher's understanding.
-
-Our research agenda explores the **Science Infrastructure** needed to record, execute, evaluate, and learn from that experience:
-
-| Layer | Research focus | Related work or direction |
-| --- | --- | --- |
-| **1 · Science Data** | Organize scientific data, research trajectories, and feedback into resources for learning | Data construction and scientific post-training |
-| **2 · Scientific Environments** | Make scientific tools, tasks, and evaluation criteria executable and reusable | [ScienceIDE](https://github.com/Gen-Verse/ScienceIDE) |
-| **3 · Scientific World Models** | Learn scientific states and predict how they change under interventions | [JEPA Anything](https://github.com/Gen-Verse/JEPA-Anything) |
-| **4 · Discovery Reasoning** | Organize problems, hypotheses, experiments, and evidence around an evolving research state | Zetema reference architecture and related research |
-| **5 · Scientist Interaction** | Connect scientist judgment and feedback to ongoing research and learning | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) |
-
-These layers describe a research agenda and intended relationships. Projects may advance independently and need not share one codebase or a unified interface. Predictive models can support candidate screening and approximate assessment; scientific claims still require appropriate independent evidence.
+**Current status:** public repository releases are forthcoming. The dates above refer to planned research introductions. Papers, code, models, datasets, demos, and subsequent milestones will be linked here as they become available, with technical details maintained in each project's repository.
 
 ## Scientist Collaboration
 

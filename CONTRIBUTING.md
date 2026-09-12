@@ -1,13 +1,13 @@
 # Maintaining the DFM Research Index
 
-DFM-Plans collects the research map, milestones, and links to independent DFM-related projects. Each research project has its own repository for implementation, documentation, technical issues, and contributions.
+DFM-Plans collects project overviews, milestones, and links to independent DFM-related projects. Each research project has its own repository for implementation, documentation, technical issues, and contributions.
 
 ## Updates Welcome Here
 
 - Add or update a project entry and its links.
 - Record a research milestone or an available paper, repository, model, dataset, benchmark, or demo.
 - Correct a description, release status, or broken link.
-- Improve the research map, navigation, or English and Chinese documentation.
+- Improve the project overview, navigation, or English and Chinese documentation.
 
 For implementation contributions, bug reports, reproduction questions, and project-specific research discussions, use the relevant project's repository.
 
@@ -26,7 +26,8 @@ Keep implementation files and research assets in the project's own repository. L
 
 ## Index Conventions
 
-- Keep project names, dates, and availability consistent across the project directory, [README.md](README.md), [README_CN.md](README_CN.md), and [ROADMAP.md](ROADMAP.md).
+- Keep project names, dates, and availability consistent across the project directory, [README.md](README.md), [README_CN.md](README_CN.md).
+- Record milestone dates, available resources, and their links in the README's Research Progress section.
 - Distinguish a research announcement from the availability of code, models, or data.
 - Label repository links awaiting public release clearly; add paper, model, data, and demo links when available.
 - Organize top-level directories by concrete research project. Each directory should contain a brief overview and links to the independent repository.
