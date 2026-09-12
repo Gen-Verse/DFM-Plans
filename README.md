@@ -2,7 +2,7 @@
 
 ### Discovery Intelligence · Research & Open Source
 
-[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
+**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 

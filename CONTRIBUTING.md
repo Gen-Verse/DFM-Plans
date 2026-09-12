@@ -1,5 +1,7 @@
 # Maintaining the DFM Research Index
 
+**English** · [中文](CONTRIBUTING_CN.md)
+
 DFM-Plans collects project overviews, milestones, and links to independent DFM-related projects. Each research project has its own repository for implementation, documentation, technical issues, and contributions.
 
 ## Updates Welcome Here
@@ -26,7 +28,9 @@ Keep implementation files and research assets in the project's own repository. L
 
 ## Index Conventions
 
-- Keep project names, dates, and availability consistent across the project directory, [README.md](README.md), [README_CN.md](README_CN.md).
+- Use English in `README.md` by default and provide Chinese in `README_CN.md` for every directory. Keep language-switch links reciprocal and link to pages in the current language.
+
+- Keep project names, dates, and availability consistent across both language versions of the project directory and the main README.
 - Record milestone dates, available resources, and their links in the README's Research Progress section.
 - Distinguish a research announcement from the availability of code, models, or data.
 - Label repository links awaiting public release clearly; add paper, model, data, and demo links when available.

@@ -2,7 +2,7 @@
 
 ### 发现智能 · 研究与开源
 
-[English](README.md) · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
+[English](README.md) · **中文** · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
 
 **从回答问题、执行任务，走向发现有价值的未知。**
 
@@ -30,9 +30,9 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 | 方向 | 项目 | 研究重点 | 计划介绍日期 | 项目入口 |
 | --- | --- | --- | --- | --- |
-| **科学家交互** | **ScienceBuddy** | 科学家对话、研究反馈与持续改进 | 2026 年 9 月 16 日 | [项目介绍](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) |
-| **科学环境** | **ScienceIDE** | 可执行、可验证、可复用的科学环境，支持 Agent 执行与模型训练 | 2026 年 9 月 17 日 | [项目介绍](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) |
-| **科学世界模型** | **JEPA Anything** | 跨领域科学状态表征与干预后的状态变化预测 | 2026 年 9 月 18 日 | [项目介绍](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) |
+| **科学家交互** | **ScienceBuddy** | 科学家对话、研究反馈与持续改进 | 2026 年 9 月 16 日 | [项目介绍](sciencebuddy/README_CN.md) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) |
+| **科学环境** | **ScienceIDE** | 可执行、可验证、可复用的科学环境，支持 Agent 执行与模型训练 | 2026 年 9 月 17 日 | [项目介绍](scienceide/README_CN.md) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) |
+| **科学世界模型** | **JEPA Anything** | 跨领域科学状态表征与干预后的状态变化预测 | 2026 年 9 月 18 日 | [项目介绍](jepa-anything/README_CN.md) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) |
 
 三个项目围绕**交互反馈、可复用环境与世界状态预测**展开，共同服务于 DFM 的研究目标，各自独立开发、评测和发布。科学数据与发现推理贯穿其中。
 
@@ -49,7 +49,7 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 - 代码、安装说明、技术问题、Issue 与贡献方式，请前往对应项目的独立仓库。
 - 如需推荐收录项目、纠正链接或讨论整体研究版图，请使用[本仓库 Issues](https://github.com/Gen-Verse/DFM-Plans/issues)。
-- 提交索引或里程碑更新，请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 提交索引或里程碑更新，请参阅 [贡献指南](CONTRIBUTING_CN.md)。
 
 ## 引用与联系
 
