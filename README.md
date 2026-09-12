@@ -2,7 +2,7 @@
 
 ### Research Map, Milestones & Open-Source Project Index
 
-[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Upcoming Work](#upcoming-work) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
+[中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Projects](#research-projects) · [Research Map](#research-map) · [Roadmap](ROADMAP.md) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
@@ -18,15 +18,15 @@ The report organizes seven core capabilities: **Problem Discovery, Problem Formu
 
 Its reference architecture, **Zetema**, explores how explicit research states, memory, tools, experimental environments, verification, and human oversight can support a recursive discovery loop. It is a research design; implementation and validation progress will be reported through the linked projects.
 
-## Upcoming Work
+## Research Projects
 
-The following research introductions are planned for September 2026:
+Three projects organize our current work: **scientist interaction, scientific environments, and scientific world models**. Each directory below provides a short project overview and links to its independent repository. Research introductions are planned for September 2026:
 
 | Planned introduction | Project | Research focus | Resources |
 | --- | --- | --- | --- |
-| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · Public release forthcoming |
-| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | [GitHub](https://github.com/Gen-Verse/ScienceIDE) · Public release forthcoming |
-| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · Public release forthcoming |
+| September 16, 2026 | **ScienceBuddy** · AI Research Partner | Scientist interaction, research feedback, and continual improvement | [Overview](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · Public release forthcoming |
+| September 17, 2026 | **ScienceIDE** · Scientific Integrated Development Platform | Executable, verifiable, and reusable scientific environments | [Overview](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) · Public release forthcoming |
+| September 18, 2026 | **JEPA Anything** · Scientific World Models Across Domains | Scientific state representations and prediction of changes under interventions | [Overview](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · Public release forthcoming |
 
 These projects address complementary research questions around **interaction feedback, reusable environments, and world-state prediction**. Their relationships will be explored progressively, with each project evaluated and released independently.
 
@@ -47,22 +47,6 @@ Our research agenda explores the **Science Infrastructure** needed to record, ex
 | **5 · Scientist Interaction** | Connect scientist judgment and feedback to ongoing research and learning | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) |
 
 These layers describe a research agenda and intended relationships. Projects may advance independently and need not share one codebase or a unified interface. Predictive models can support candidate screening and approximate assessment; scientific claims still require appropriate independent evidence.
-
-## Research Directions
-
-The directories below provide scope descriptions and project links. They serve as an index; implementations, documentation, and project-specific discussions belong in the corresponding independent repositories.
-
-| Direction | Scope |
-| --- | --- |
-| [Proposer](proposer/) | Problem discovery, formulation, representation construction, and hypothesis formation |
-| [Experimenter](experimenter/) | Interventions, tools, simulations, experiments, and Dry/Wet grounding |
-| [Reviser](reviser/) | Verification, falsification, failure attribution, and evidence-grounded revision |
-| [Continual Improvement](continual-improvement/) | Discovery skills, memory evolution, and cross-task transfer |
-| [Training](training/) | Scientific data, trajectories, SFT, RL, and process supervision |
-| [Evaluation](evaluation/) | Capability, research-process, transfer, efficiency, and real-world validation |
-| [Demos](demos/) | Links to scientific and engineering demonstrations and case studies |
-
-A project can contribute to several directions. See [ROADMAP.md](ROADMAP.md) for milestones and available resources.
 
 ## Scientist Collaboration
 

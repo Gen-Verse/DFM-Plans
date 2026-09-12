@@ -2,7 +2,7 @@
 
 ### 技术研究版图、成果里程碑与开源项目索引
 
-[English](README.md) · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [近期成果预告](#近期成果预告) · [研究版图](#研究版图) · [研究路线图](ROADMAP.md) · [科学家合作计划](https://phai-labs.com/collaborate/)
+[English](README.md) · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [研究项目](#研究项目) · [研究版图](#研究版图) · [研究路线图](ROADMAP.md) · [科学家合作计划](https://phai-labs.com/collaborate/)
 
 **从回答问题、执行任务，走向发现有价值的未知。**
 
@@ -18,15 +18,15 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 参考架构 **Zetema** 探索如何通过显式研究状态、记忆、科学工具、实验环境、验证机制和人类监督，组织递归发现循环。它是一套研究设计；具体实现与验证进展将通过各项独立研究持续更新。
 
-## 近期成果预告
+## 研究项目
 
-以下研究成果计划于 2026 年 9 月连续介绍：
+当前工作按**科学家交互、科学环境、科学世界模型**三个项目组织。各主目录提供简要介绍与独立仓库入口，研究成果计划于 2026 年 9 月连续介绍：
 
 | 计划介绍日期 | 工作 | 研究重点 | 相关资源 |
 | --- | --- | --- | --- |
-| 2026 年 9 月 16 日 | **ScienceBuddy · AI 科研搭档** | 科学家交互、研究反馈与持续改进 | [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · 待公开 |
-| 2026 年 9 月 17 日 | **ScienceIDE · 科学集成开发平台** | 可执行、可验证、可复用的科学环境 | [GitHub](https://github.com/Gen-Verse/ScienceIDE) · 待公开 |
-| 2026 年 9 月 18 日 | **JEPA Anything · 跨领域科学世界模型** | 科学状态表征与干预后的状态变化预测 | [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · 待公开 |
+| 2026 年 9 月 16 日 | **ScienceBuddy · AI 科研搭档** | 科学家交互、研究反馈与持续改进 | [项目介绍](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) · 待公开 |
+| 2026 年 9 月 17 日 | **ScienceIDE · 科学集成开发平台** | 可执行、可验证、可复用的科学环境 | [项目介绍](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) · 待公开 |
+| 2026 年 9 月 18 日 | **JEPA Anything · 跨领域科学世界模型** | 科学状态表征与干预后的状态变化预测 | [项目介绍](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) · 待公开 |
 
 三个工作分别关注**交互反馈、可复用环境与世界状态预测**，未来将逐步探索彼此的协作关系，各自独立研究、评测和发布。
 
@@ -47,22 +47,6 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 | **5 · Scientist Interaction** | 将科学家的判断与反馈纳入持续研究和学习过程 | [ScienceBuddy](https://github.com/Gen-Verse/ScienceBuddy) |
 
 五层描述研究布局及预期协作关系。各项工作可独立推进，无须共享同一套代码或统一接口。世界模型预测可用于候选筛选与近似评估，科学主张仍需接受相应独立证据的检验。
-
-## 研究方向
-
-下列目录用于说明研究范围并汇总项目链接。具体实现、使用文档与项目技术讨论由各自的独立仓库承接。
-
-| 方向 | 主要内容 |
-| --- | --- |
-| [Proposer](proposer/) | 问题发现、问题形成、表征构造与假设形成 |
-| [Experimenter](experimenter/) | 干预、工具调用、仿真、实验与干湿实验验证 |
-| [Reviser](reviser/) | 验证、反证、失败归因与证据驱动的修正 |
-| [Continual Improvement](continual-improvement/) | 发现技能、记忆演化与跨任务迁移 |
-| [Training](training/) | 科研数据、研究轨迹、SFT、RL 与过程监督 |
-| [Evaluation](evaluation/) | 能力、研究过程、迁移、效率与真实场景验证 |
-| [Demos](demos/) | 科学和工程领域演示与案例的链接汇总 |
-
-一项工作可以关联多个研究方向。当前里程碑与已公开资源见 [ROADMAP.md](ROADMAP.md)。
 
 ## 科学家合作计划
 

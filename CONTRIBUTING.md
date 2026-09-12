@@ -16,7 +16,7 @@ For implementation contributions, bug reports, reproduction questions, and proje
 Open an [Issue](https://github.com/Gen-Verse/DFM-Plans/issues) or a focused documentation pull request with:
 
 1. **Project and research question** — a short description of the work.
-2. **Relevant directions** — one or more areas in the research map.
+2. **Project entry** — the project directory to add or update.
 3. **Canonical links** — the independent repository, paper, project page, or other public resources.
 4. **Milestone and availability** — what has been announced and what can currently be accessed.
 5. **Evidence and limitations** — links to the project's evaluation and known limitations.
@@ -26,10 +26,10 @@ Keep implementation files and research assets in the project's own repository. L
 
 ## Index Conventions
 
-- Keep project names, dates, and availability consistent across [README.md](README.md), [README_CN.md](README_CN.md), and [ROADMAP.md](ROADMAP.md).
+- Keep project names, dates, and availability consistent across the project directory, [README.md](README.md), [README_CN.md](README_CN.md), and [ROADMAP.md](ROADMAP.md).
 - Distinguish a research announcement from the availability of code, models, or data.
-- Add working public links when resources become available; use plain text for pending resources.
-- A project may appear under several research directions.
+- Label repository links awaiting public release clearly; add paper, model, data, and demo links when available.
+- Organize top-level directories by concrete research project. Each directory should contain a brief overview and links to the independent repository.
 - Each independent project maintains its own contribution guidance and license.
 
 Do not submit confidential, proprietary, personally identifiable, or otherwise restricted information.
