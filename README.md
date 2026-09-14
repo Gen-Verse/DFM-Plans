@@ -32,7 +32,7 @@ From **Chat** to **Code** to **Discovery Intelligence**, AI learns from knowledg
 | --- | --- | --- | --- | --- |
 | **Scientist Interaction** | **ScienceBuddy** | Scientist dialogue, research feedback, and continual improvement | September 16, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
 | **Scientific Environments** | **ScienceIDE** | Executable, verifiable, and reusable scientific environments for agent execution and model training | September 17, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
-| **Scientific World Models** | **JEPA Anything** | Scientific state representations and prediction of changes under interventions across domains | September 18, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
+| **Scientific World Models** | **JEPA-Anything** | Scientific state representations and prediction of changes under interventions across domains | September 18, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
 
 The projects connect **interaction feedback, reusable environments, and world-state prediction** within the broader DFM research agenda. Each is developed, evaluated, and released independently; scientific data and discovery reasoning are shared research themes.
 
