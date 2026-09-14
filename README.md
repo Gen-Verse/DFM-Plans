@@ -2,7 +2,7 @@
 
 ### Discovery Intelligence · Research & Open Source
 
-**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/collaborate/)
+**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
@@ -40,10 +40,16 @@ The projects connect **interaction feedback, reusable environments, and world-st
 
 ## Scientist Collaboration
 
+<p align="center">
+  <a href="https://phai-labs.com/en/collaborate/">
+    <img src="assets/scientist-collaboration-en.jpg" width="1000" alt="DFM Scientist Collaboration Program — English website preview.">
+  </a>
+</p>
+
 We welcome scientists, research teams, and experimental platforms with important open questions, scientific data, executable environments, or opportunities for real-world validation.
 
 - **[Apply to the DFM Scientist Collaboration Program](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
-- **[DFM Scientist Collaboration Program — Overview](https://phai-labs.com/collaborate/)**
+- **[DFM Scientist Collaboration Program — Overview](https://phai-labs.com/en/collaborate/)**
 
 ## Developer Navigation & Index Updates
 

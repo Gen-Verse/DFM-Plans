@@ -40,6 +40,12 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 ## 科学家合作计划
 
+<p align="center">
+  <a href="https://phai-labs.com/collaborate/">
+    <img src="assets/scientist-collaboration-zh.jpg" width="1000" alt="DFM 科学家合作计划中文页面预览。">
+  </a>
+</p>
+
 欢迎拥有重要开放问题、专业数据、可执行环境或真实实验验证条件的科学家、研究团队与实验平台参与合作。
 
 - **[申请加入 DFM 科学家合作计划](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
