@@ -30,7 +30,7 @@ From **Chat** to **Code** to **Discovery Intelligence**, AI learns from knowledg
 
 | Direction | Project | Research focus | Planned introduction | Resources |
 | --- | --- | --- | --- | --- |
-| **Scientist Interaction** | **ScienceBuddy** | Scientist dialogue, research feedback, and continual improvement | September 16, 2026 | [Overview](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy) |
+| **Scientist Interaction** | **ScienceBuddy** | Scientist dialogue, research feedback, and continual improvement | September 16, 2026 | [Overview](sciencebuddy/) · [GitHub](https://github.com/Gen-Verse/ScienceBuddy-RSI) |
 | **Scientific Environments** | **ScienceIDE** | Executable, verifiable, and reusable scientific environments for agent execution and model training | September 17, 2026 | [Overview](scienceide/) · [GitHub](https://github.com/Gen-Verse/ScienceIDE) |
 | **Scientific World Models** | **JEPA Anything** | Scientific state representations and prediction of changes under interventions across domains | September 18, 2026 | [Overview](jepa-anything/) · [GitHub](https://github.com/Gen-Verse/JEPA-Anything) |
 
