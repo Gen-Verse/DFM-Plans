@@ -2,7 +2,7 @@
 
 ### Discovery Intelligence · Research & Open Source
 
-**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](https://phai-labs.com/papers/dfm/) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
+**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](https://arxiv.org/abs/2609.15973) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
@@ -18,7 +18,7 @@ Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings tog
 
 ## Technical Report
 
-**[Discovery Foundation Models](https://phai-labs.com/papers/dfm/)** — Technical Report.
+**[Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](https://arxiv.org/abs/2609.15973)** — Technical Report.
 
 The report organizes seven core capabilities: **Problem Discovery, Problem Formulation, Representation Construction, Hypothesis Formation, Intervention & Experimentation, Evidence-Grounded Revision, and Continual Discovery Improvement**.
 
@@ -59,6 +59,16 @@ We welcome scientists, research teams, and experimental platforms with important
 
 ## Citation & Contact
 
-For research use, cite the relevant technical report or individual project paper. Citation details will be linked as those resources become available.
+If you find this work useful, please cite the DFM technical report. When using an individual project, please also cite its associated paper.
+
+```bibtex
+@misc{yang2026discovery,
+  title         = {Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
+  author        = {Ling Yang and Zhenfei Yin and Yingcheng Wu},
+  year          = {2026},
+  eprint        = {2609.15973},
+  archivePrefix = {arXiv}
+}
+```
 
 **PhAI Labs** · [Website](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
