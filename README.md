@@ -62,12 +62,11 @@ We welcome scientists, research teams, and experimental platforms with important
 If you find this work useful, please cite the DFM technical report. When using an individual project, please also cite its associated paper.
 
 ```bibtex
-@misc{yang2026discovery,
-  title         = {Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
-  author        = {Ling Yang and Zhenfei Yin and Yingcheng Wu},
-  year          = {2026},
-  eprint        = {2609.15973},
-  archivePrefix = {arXiv}
+@article{yang2026discovery,
+  title={Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
+  author={Yang, Ling and Yin, Zhenfei and Wu, Yingcheng},
+  journal={arXiv preprint arXiv:2609.15973},
+  year={2026}
 }
 ```
 
