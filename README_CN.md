@@ -2,7 +2,7 @@
 
 ### 发现智能 · 研究与开源
 
-[English](README.md) · **中文** · [官方网站](https://phai-labs.com/) · [技术报告](https://phai-labs.com/papers/dfm/) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
+[English](README.md) · **中文** · [官方网站](https://phai-labs.com/) · [技术报告](https://arxiv.org/abs/2609.15973) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
 
 **从回答问题、执行任务，走向发现有价值的未知。**
 
@@ -18,7 +18,7 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 ## 技术报告
 
-**[Discovery Foundation Models](https://phai-labs.com/papers/dfm/)** — 技术报告。
+**[Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](https://arxiv.org/abs/2609.15973)** — 技术报告。
 
 报告提出七项核心能力：**问题发现、问题形成、表征构造、假设形成、干预与实验、证据驱动的修正，以及跨任务的持续发现能力提升。**
 
@@ -59,6 +59,16 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 ## 引用与联系
 
-研究使用请引用相关技术报告或具体项目论文，引用信息将随对应资源上线后补充。
+如果本研究对你有帮助，请引用 DFM 技术报告；使用具体项目时，也请引用相应项目论文。
+
+```bibtex
+@misc{yang2026discovery,
+  title         = {Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
+  author        = {Ling Yang and Zhenfei Yin and Yingcheng Wu},
+  year          = {2026},
+  eprint        = {2609.15973},
+  archivePrefix = {arXiv}
+}
+```
 
 **PhAI Labs** · [官方网站](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
