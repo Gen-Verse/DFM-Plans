@@ -62,12 +62,11 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 如果本研究对你有帮助，请引用 DFM 技术报告；使用具体项目时，也请引用相应项目论文。
 
 ```bibtex
-@misc{yang2026discovery,
-  title         = {Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
-  author        = {Ling Yang and Zhenfei Yin and Yingcheng Wu},
-  year          = {2026},
-  eprint        = {2609.15973},
-  archivePrefix = {arXiv}
+@article{yang2026discovery,
+  title={Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
+  author={Yang, Ling and Yin, Zhenfei and Wu, Yingcheng},
+  journal={arXiv preprint arXiv:2609.15973},
+  year={2026}
 }
 ```
 
