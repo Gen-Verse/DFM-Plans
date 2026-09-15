@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository or its released resources in your research, please cite the repository and the relevant associated work where applicable."
+message: "If you use this work, please cite the DFM technical report below. Please also cite the relevant individual project paper where applicable."
 title: "DFM Plans: Technical Roadmap for Discovery Foundation Models"
 type: software
 authors:
@@ -12,3 +12,18 @@ authors:
 date-released: 2026-08-08
 license: Apache-2.0
 repository-code: "https://github.com/Gen-Verse/DFM-Plans"
+preferred-citation:
+  type: article
+  title: "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence"
+  authors:
+    - family-names: Yang
+      given-names: Ling
+    - family-names: Yin
+      given-names: Zhenfei
+    - family-names: Wu
+      given-names: Yingcheng
+  journal: "arXiv preprint arXiv:2609.15973"
+  year: 2026
+  month: 9
+  date-published: 2026-09-14
+  url: "https://arxiv.org/abs/2609.15973"
