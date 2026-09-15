@@ -2,7 +2,7 @@
 
 ### 发现智能 · 研究与开源
 
-[English](README.md) · **中文** · [官方网站](https://phai-labs.com/) · [技术报告](#技术报告) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
+[English](README.md) · **中文** · [官方网站](https://phai-labs.com/) · [技术报告](https://phai-labs.com/papers/dfm/) · [研究项目与进展](#研究项目与进展) · [科学家合作计划](https://phai-labs.com/collaborate/)
 
 **从回答问题、执行任务，走向发现有价值的未知。**
 
@@ -18,7 +18,7 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 ## 技术报告
 
-**Discovery Foundation Models** — arXiv 链接待上线。
+**[Discovery Foundation Models](https://phai-labs.com/papers/dfm/)** — 技术报告。
 
 报告提出七项核心能力：**问题发现、问题形成、表征构造、假设形成、干预与实验、证据驱动的修正，以及跨任务的持续发现能力提升。**
 
