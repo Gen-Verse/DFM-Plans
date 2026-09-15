@@ -2,7 +2,7 @@
 
 ### Discovery Intelligence · Research & Open Source
 
-**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](#technical-report) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
+**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](https://phai-labs.com/papers/dfm/) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
@@ -18,7 +18,7 @@ Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings tog
 
 ## Technical Report
 
-**Discovery Foundation Models** — arXiv link forthcoming.
+**[Discovery Foundation Models](https://phai-labs.com/papers/dfm/)** — Technical Report.
 
 The report organizes seven core capabilities: **Problem Discovery, Problem Formulation, Representation Construction, Hypothesis Formation, Intervention & Experimentation, Evidence-Grounded Revision, and Continual Discovery Improvement**.
 
