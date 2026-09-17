@@ -28,15 +28,15 @@ Its reference architecture, **Zetema**, explores how explicit research states, m
 
 From **Chat** to **Code** to **Discovery Intelligence**, AI learns from knowledge, action outcomes, and scientific inquiry. Our work builds the scientific data, environments, and feedback needed to support this transition.
 
-| Direction | Project | Research focus | Planned introduction | Resources |
+| Direction | Project | Research focus | Release / plan | Resources |
 | --- | --- | --- | --- | --- |
-| **Scientist Interaction** | **ScienceBuddy** | Scientist dialogue, research feedback, and continual improvement | September 16, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
-| **Scientific Environments** | **ScienceIDE** | Executable, verifiable, and reusable scientific environments for agent execution and model training | September 17, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
+| **Scientist Interaction** | **[ScienceBuddy](sciencebuddy/README.md)** | Interactive scientific workspace with recursive-in-recursive improvement of agent harnesses and models | Released · 2026-09-16 | [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Product](http://science-buddy.io/) |
+| **Scientific Environments** | **[ScienceIDE](scienceide/README.md)** | Scientific code transformed into executable, verifiable learning environments for SFT, RL, and evaluation | Released · 2026-09-17 | [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
 | **Scientific World Models** | **JEPA-Anything** | Scientific state representations and prediction of changes under interventions across domains | September 18, 2026 | [Overview](https://phai-labs.com/papers/) · Code: Coming Soon |
 
 The projects connect **interaction feedback, reusable environments, and world-state prediction** within the broader DFM research agenda. Each is developed, evaluated, and released independently; scientific data and discovery reasoning are shared research themes.
 
-**Current status:** public repository releases are forthcoming. The dates above refer to planned research introductions. Papers, code, models, datasets, demos, and subsequent milestones will be linked here as they become available, with technical details maintained in each project's repository.
+**Current status:** ScienceBuddy has released its preview workspace, paper, and research code. ScienceIDE has released its paper, preview code, selected environments and tasks, and the PhAI-IDE-4B, 9B, and 72B model series. Ongoing training and evaluation infrastructure development is maintained in [ScienceInfra](https://github.com/Gen-Verse/ScienceInfra). JEPA-Anything remains planned as listed above; technical documentation and subsequent releases are maintained in each project's repository.
 
 ## Scientist Collaboration
 
@@ -69,5 +69,33 @@ If you find this work useful, please cite the DFM technical report. When using a
   year={2026}
 }
 ```
+
+<details>
+<summary>ScienceBuddy</summary>
+
+```bibtex
+@article{xue2026sciencebuddy,
+  title={ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents},
+  author={Xue, Shuhan and Zhong, Jianyuan and Nan, Ziyuan and Li, Wenbin and Yu, Zhaochen and Ding, Jinchao and Gao, Qiang and Zhan, Pengyu and Zhang, Yuntong and Cheng, Tian and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
+  journal={arXiv preprint arXiv:2609.17523},
+  year={2026}
+}
+```
+
+</details>
+
+<details>
+<summary>ScienceIDE</summary>
+
+```bibtex
+@article{geng2026scienceide,
+  title={ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments},
+  author={Geng, Hejia and Huang, Zesen and Li, Haoyang and Li, Wenbin and Wu, Koutian and Zhou, Zihan and Pang, Yuanbo and Liu, Weihao and Xu, Zigong and Li, Zhiping and Zhang, Zongzheng and Dong, Chuanfei and Sun, Jiankai and Zheng, Tianzhe and Xie, Fengyu and Ma, Yue and Shi, Yueheng and Xie, Tong and Di, Zonglin and Liu, Xianrong and Gao, Qucheng and Liu, Yimin and Pan, Jiaming and Huang, Sheng and Ma, Xiao-Han and Yuan, Lanqing and Zhu, Zhenlin and Liu, Ziang and Xu, Ziyang and Wang, Junkai and Liang, Kangkai and Xian, Jiayi and Zhao, Zehong and Xu, Liuwei and Xie, Jingxu and Zhang, Peijin and Gao, Qiang and Xing, Chengyi and Zhao, Zhe and Wang, Xi and Xing, Yaopeng and Meng, Xing and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
+  journal={arXiv preprint arXiv:2609.19134},
+  year={2026}
+}
+```
+
+</details>
 
 **PhAI Labs** · [Website](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
