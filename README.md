@@ -26,17 +26,55 @@ Its reference architecture, **Zetema**, explores how explicit research states, m
 
 ## Research Progress
 
-From **Chat** to **Code** to **Discovery Intelligence**, AI learns from knowledge, action outcomes, and scientific inquiry. Our work builds the scientific data, environments, and feedback needed to support this transition.
+**Our research thesis.** Discovery Intelligence is not simply a scientific chatbot or another fixed benchmark. Math and coding advanced agent learning through executable tasks and relatively clear feedback; scientific research extends this frontier to **long-horizon, weakly verifiable, intervention-driven, and open-ended problems**. A DFM must not only solve tasks inside a fixed problem space, but also formulate valuable new questions and revise its assumptions using external evidence.
 
-| Direction | Project | Research focus | Release / plan | Resources |
-| --- | --- | --- | --- | --- |
-| **Scientist Interaction** | **[ScienceBuddy](sciencebuddy/README.md)** | Interactive scientific workspace with recursive-in-recursive improvement of agent harnesses and models | Released · 2026-09-16 | [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Product](http://science-buddy.io/) |
-| **Scientific Environments** | **[ScienceIDE](scienceide/README.md)** | Scientific code transformed into executable, verifiable learning environments for SFT, RL, and evaluation | Released · 2026-09-17 | [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
-| **Scientific World Models** | **[JEPA-Anything](jepa-anything/README.md)** | Scientific state representations and prediction of changes under interventions across domains | Released · 2026-09-18 | [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) |
+### The discovery and learning loop
 
-The projects connect **interaction feedback, reusable environments, and world-state prediction** within the broader DFM research agenda. Each is developed, evaluated, and released independently; scientific data and discovery reasoning are shared research themes.
+```mermaid
+flowchart LR
+    Q["Scientific unknowns, data & knowledge"] --> A["Research agents: hypotheses & plans"]
+    A --> X["Tools, scientific environments & experiments"]
+    X --> F["Evidence, outcomes & verification"]
+    F --> U["Model, memory, harness & world-model improvement"]
+    U --> A
+    F --> Q
+```
 
-**Current status:** ScienceBuddy has released its preview workspace, paper, and research code. ScienceIDE has released its paper, preview code, selected environments and tasks, and the PhAI-IDE-4B, 9B, and 72B model series. Ongoing training and evaluation infrastructure development is maintained in [ScienceInfra](https://github.com/Gen-Verse/ScienceInfra). JEPA-Anything has released its paper and research code. Technical documentation and subsequent releases are maintained in each project's repository.
+The goal is to **turn research experience into a renewable source of learning**: new problems, failed attempts, experimental outcomes, and verified revisions change which tasks agents encounter next and how they solve them. The diagram is a **research-level map**, not a claim that all released projects already form one deployed stack.
+
+### Research map: complementary projects, one agenda
+
+| Research layer | Public project | Role in the DFM program | Availability & links |
+| --- | --- | --- | --- |
+| **Scientific interaction & agent learning** | **[ScienceBuddy](sciencebuddy/README.md)** | Researcher-facing scientific workflows; nested self-improvement of the agent harness (inner loop) and policy model (outer loop) | Released · 2026-09-16 · [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Workspace](https://science-buddy.io/) |
+| **Executable scientific environments** | **[ScienceIDE](scienceide/README.md)** | Compile scientific code and acceptance criteria into reusable, verifiable tasks for agent interaction and learning | Released · 2026-09-17 · [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
+| **Training, execution & verification infrastructure** | **[ScienceInfra](https://github.com/Gen-Verse/ScienceInfra)** | Connect task banks, containerized execution, verifiers, online RL and independent evaluation | Ongoing open infrastructure · [Code & roadmap](https://github.com/Gen-Verse/ScienceInfra) |
+| **Generalizable predictive world models** | **[JEPA-Anything](jepa-anything/README.md)** | Orthogonal Predictive Factorization (OPF) for predictive representations and state changes across heterogeneous worlds | Released · 2026-09-18 · [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) |
+| **World-model-guided recursive improvement** | **[RSI-Anything](rsi-anything/README.md)** | Use predictions to guide action selection; use real feedback to update and validate policies, world models and workflows | Released · 2026-10 · [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) |
+| **Long-horizon agent memory & harnesses** | **[Recuris](recuris/README.md)** | Improve frozen agents through targeted, validated evolution of experiential and working memory | Released · 2026-08 · [Paper](https://arxiv.org/abs/2608.24876) · [Code](https://github.com/Gen-Verse/Recuris) |
+
+**How they relate.** ScienceIDE expands the supply of executable research environments; ScienceInfra turns verifiable interaction into reproducible training and evaluation. ScienceBuddy studies the research-agent interface and joint harness/model learning. JEPA-Anything provides a cross-domain predictive foundation, which RSI-Anything extends into prediction-guided action and recursive improvement. Recuris investigates a complementary, training-free path: persistent memory and harness evolution for long tasks. **These are independently developed and evaluated research releases, not interchangeable components or a claimed end-to-end DFM implementation.**
+
+### Evidence from released work
+
+| Work | Selected reported evidence | What it demonstrates |
+| --- | --- | --- |
+| [ScienceBuddy](https://arxiv.org/abs/2609.17523) | On 180 held-out scientific questions, Qwen3.5-4B pass@4 increased from **48.3% to 67.8%** at the same four-attempt budget | Model learning and harness refinement can reinforce one another |
+| [ScienceIDE](https://github.com/aitofound/ScienceIDE) | **64** environments in the study, **15** released with runtimes; PhAI-IDE **4B / 9B / 72B** model series | Scientific software can be converted into reusable execution and evaluation environments |
+| [JEPA-Anything](https://arxiv.org/abs/2609.20800) | A predictive learning principle studied across **seven domains**, from vision and biology to physical fields and weather | Shared prediction interfaces can extend beyond a single environment type |
+| [RSI-Anything](https://github.com/Gen-Verse/RSI-Anything) | Code-repair success **26.3% → 31.2%** from a static-verifier baseline to feedback-adapted world-model selection; **18.4% relative** improvement on OSWorld over the initial agent | Predictive models can help decide which actions and feedback to prioritize |
+| [Recuris](https://github.com/Gen-Verse/Recuris) | Improvements in **35 of 37** completed model–benchmark pairs | Validated memory evolution can improve long-horizon agents without weight updates |
+
+*Results are reported in their respective papers or repositories, on different tasks and protocols. They should not be read as a direct cross-project leaderboard.*
+
+### Open research agenda
+
+1. **From hypothesis generation to valuable problem discovery.** Represent hypotheses, research decisions, evidence and failed attempts as reusable experience; measure scientific value and research progress beyond execution success.
+2. **Data–Environment–Verifier–Policy–Harness co-evolution.** Let newly exposed failure modes and experimental outcomes reshape the training distribution, environments, reward criteria, models and agent procedures.
+3. **Long-horizon, weakly verifiable research.** Expand from short executable tasks toward multi-step investigations with delayed, partial or costly feedback.
+4. **Prediction connected to intervention.** Improve world-model reliability under changing policies and connect computational proposals to reproducible simulations and, where feasible, real experiments.
+
+The [DFM technical report](https://arxiv.org/abs/2609.15973) and Zetema architecture define the broader research direction. Public implementation and empirical claims remain scoped to the linked projects; ongoing directions above are **research goals**, not completed results.
 
 ## Scientist Collaboration
 
@@ -89,6 +127,23 @@ If you find this work useful, please cite the DFM technical report. When using a
   journal={arXiv preprint arXiv:2609.20800},
   year={2026}
 }
+
+@misc{cui2026rsianything,
+  title={RSI-Anything: Unlocking Recursive Self-Improvement with World Models},
+  author={Cui, Taoyong and Zeng, Pinxian and Xu, Wanghan and Xiao, Hao and Xue, Shuhan and Gao, Qiang and Ouyang, Wanli and Heng, Pheng Ann and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
+  year={2026},
+  eprint={2610.13912},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2610.13912}
+}
+
+@article{yu2026recuris,
+  title={Recursive Experiential--Working Memory Evolution for Long-Horizon Agent Harnesses},
+  author={Yu, Zhaochen and Wu, Yingcheng and Yin, Zhenfei and Chen, Kaiyuan and Zhao, Zhe and Wang, Mengdi and Yan, Shuicheng and Yang, Ling},
+  journal={arXiv preprint arXiv:2608.24876},
+  year={2026}
+}
+
 ```
 
 **PhAI Labs** · [Website](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
