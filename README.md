@@ -2,13 +2,13 @@
 
 ### Discovery Intelligence · Research & Open Source
 
-**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/) · [Technical Report](https://arxiv.org/abs/2609.15973) · [Research Progress](#research-progress) · [Scientist Collaboration](https://phai-labs.com/en/collaborate/)
+**English** · [中文](README_CN.md) · [Website](https://phai-labs.com/en/) · [Technical Report](https://arxiv.org/abs/2609.15973) · [News](#news) · [Research Progress](#research-progress) · [Scientist Collaboration](#scientist-collaboration) · [X @PhAILabs](https://x.com/PhAILabs)
 
 **From answering questions and executing tasks to discovering what comes next.**
 
 Discovery Foundation Models (DFMs) explore how AI can identify valuable unknowns, formulate problems, construct representations and hypotheses, gather external evidence, and improve its ability to discover across tasks.
 
-Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings together the DFM technical report, research map, project announcements, and links to open research. **Individual research projects will be developed and released in their own repositories.** DFM-Plans maintains the overview, milestones, and navigation to those projects.
+Initiated by **[PhAI Labs](https://phai-labs.com/en/)** — *model and data infrastructure for real scientific discovery* — this repository brings together the DFM technical report, research map, release timeline, and links to open research. **Individual research projects are developed and released in their own repositories.** DFM-Plans maintains the overview, milestones, and navigation to those projects.
 
 <p align="center">
   <img src="assets/dfm-architecture-en.webp" width="1000" alt="Discovery Intelligence: Chat, Agent, and Discovery with a recursive discovery loop.">
@@ -16,13 +16,29 @@ Initiated by **[PhAI Labs](https://phai-labs.com/)**, this repository brings tog
 
 *Discovery Intelligence architecture: external experiments, five-layer collaboration, and a closed feedback loop.*
 
+## News
+
+| Date | Release | Links |
+| --- | --- | --- |
+| **2026-10-19** | 🔥 **[DiscoveryRSI](discoveryrsi/README.md)** — research agents that recursively learn to discover valuable hypotheses from their own research experience; releases **DiscoveryRSI-27B** and **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | [Paper](https://arxiv.org/abs/2610.23839) · [Code](https://github.com/Gen-Verse/DiscoveryRSI) · [Model](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [Data](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) · [Arena](https://foundry-arena.rsi-arena.workers.dev/arena) · [Blog](https://phai-labs.com/en/news/discoveryrsi/) |
+| **2026-10-12** | **[RSI-Anything](rsi-anything/README.md)** — world models for recursive self-improvement across domains | [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) · [Blog](https://phai-labs.com/en/news/rsi-anything/) |
+| **2026-09-18** | **[JEPA-Anything](jepa-anything/README.md)** — cross-domain predictive world models | [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) · [Blog](https://phai-labs.com/en/news/jepa-anything/) |
+| **2026-09-17** | **[ScienceIDE](scienceide/README.md)** — scientific codebases as verifiable agent-learning environments; PhAI-IDE 4B / 9B / 72B | [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) · [Blog](https://phai-labs.com/en/news/scienceide/) |
+| **2026-09-16** | **[ScienceBuddy](sciencebuddy/README.md)** — interactive research workspace with recursive-in-recursive self-improvement | [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Try it free](https://science-buddy.io/) · [Blog](https://phai-labs.com/en/news/sciencebuddy/) |
+| **2026-09-15** | **DFM Technical Report** and research map | [Paper](https://arxiv.org/abs/2609.15973) · [Blog](https://phai-labs.com/en/news/dfm-launch/) |
+| **2026-08** | **[Recuris](recuris/README.md)** — experiential–working memory evolution for long-horizon agent harnesses | [Paper](https://arxiv.org/abs/2608.24876) · [Code](https://github.com/Gen-Verse/Recuris) |
+
+All announcements: [phai-labs.com/en/news](https://phai-labs.com/en/news/)
+
 ## Technical Report
 
 **[Discovery Foundation Models: Toward Open-Ended Discovery Intelligence](https://arxiv.org/abs/2609.15973)** — Technical Report.
 
+**Three stages of intelligence scaling.** *Chat* learns existing knowledge from public data; *Agent / Coding* learns from the outcomes of its actions through executable feedback and iterative correction; *Discovery* creates and validates new knowledge through verifiable evidence, a discovery policy, and real-world validation. Math and coding made the second stage possible; research is the next frontier.
+
 The report organizes seven core capabilities: **Problem Discovery, Problem Formulation, Representation Construction, Hypothesis Formation, Intervention & Experimentation, Evidence-Grounded Revision, and Continual Discovery Improvement**.
 
-Its reference architecture, **Zetema**, explores how explicit research states, memory, tools, experimental environments, verification, and human oversight can support a recursive discovery loop. It is a research design; implementation and validation progress will be reported through the linked projects.
+Its reference architecture, **Zetema**, explores how explicit research states, memory, tools, experimental environments, verification, and human oversight can support a recursive discovery loop. It is a research design; implementation and validation progress are reported through the linked projects.
 
 ## Research Progress
 
@@ -40,39 +56,41 @@ flowchart LR
     F --> Q
 ```
 
-The goal is to **turn research experience into a renewable source of learning**: new problems, failed attempts, experimental outcomes, and verified revisions change which tasks agents encounter next and how they solve them. The diagram is a **research-level map**, not a claim that all released projects already form one deployed stack.
+The goal is to **turn research experience into a renewable source of learning**: new problems, failed attempts, experimental outcomes, and verified revisions change which tasks agents encounter next and how they solve them — *a loop, not a line*. The diagram is a **research-level map**, not a claim that all released projects already form one deployed stack.
 
 ### Research map: complementary projects, one agenda
 
 | Research layer | Public project | Role in the DFM program | Availability & links |
 | --- | --- | --- | --- |
+| **Hypothesis discovery & research-progress evaluation** | **[DiscoveryRSI](discoveryrsi/README.md)** · **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | Evolve hypothesis trees, compile investigations into executable tasks, and improve model + harness from the research record; evaluate progress at five levels, from single hypotheses to whole research campaigns | Released · 2026-10-19 · [Paper](https://arxiv.org/abs/2610.23839) · [Code](https://github.com/Gen-Verse/DiscoveryRSI) · [27B model](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [Benchmark](https://github.com/Gen-Verse/DFM-Bench) |
 | **Scientific interaction & agent learning** | **[ScienceBuddy](sciencebuddy/README.md)** | Researcher-facing scientific workflows; nested self-improvement of the agent harness (inner loop) and policy model (outer loop) | Released · 2026-09-16 · [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Workspace](https://science-buddy.io/) |
 | **Executable scientific environments** | **[ScienceIDE](scienceide/README.md)** | Compile scientific code and acceptance criteria into reusable, verifiable tasks for agent interaction and learning | Released · 2026-09-17 · [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
-| **Training, execution & verification infrastructure** | **[ScienceInfra](https://github.com/Gen-Verse/ScienceInfra)** | Connect task banks, containerized execution, verifiers, online RL and independent evaluation | Ongoing open infrastructure · [Code & roadmap](https://github.com/Gen-Verse/ScienceInfra) |
+| **Training, execution & verification infrastructure** | **[ScienceInfra](https://github.com/Gen-Verse/ScienceInfra)** | Connect task banks, containerized execution (Harbor), verifiable rewards, asynchronous online RL and independent evaluation | Ongoing open infrastructure · [Code & roadmap](https://github.com/Gen-Verse/ScienceInfra) |
 | **Generalizable predictive world models** | **[JEPA-Anything](jepa-anything/README.md)** | Orthogonal Predictive Factorization (OPF) for predictive representations and state changes across heterogeneous worlds | Released · 2026-09-18 · [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) |
-| **World-model-guided recursive improvement** | **[RSI-Anything](rsi-anything/README.md)** | Use predictions to guide action selection; use real feedback to update and validate policies, world models and workflows | Released · 2026-10 · [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) |
+| **World-model-guided recursive improvement** | **[RSI-Anything](rsi-anything/README.md)** | Use predictions to guide action selection; use real feedback to update and validate policies, world models and workflows | Released · 2026-10-12 · [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) |
 | **Long-horizon agent memory & harnesses** | **[Recuris](recuris/README.md)** | Improve frozen agents through targeted, validated evolution of experiential and working memory | Released · 2026-08 · [Paper](https://arxiv.org/abs/2608.24876) · [Code](https://github.com/Gen-Verse/Recuris) |
 
-**How they relate.** ScienceIDE expands the supply of executable research environments; ScienceInfra turns verifiable interaction into reproducible training and evaluation. ScienceBuddy studies the research-agent interface and joint harness/model learning. JEPA-Anything provides a cross-domain predictive foundation, which RSI-Anything extends into prediction-guided action and recursive improvement. Recuris investigates a complementary, training-free path: persistent memory and harness evolution for long tasks. **These are independently developed and evaluated research releases, not interchangeable components or a claimed end-to-end DFM implementation.**
+**How they relate.** ScienceIDE expands the supply of executable research environments; ScienceInfra turns verifiable interaction into reproducible training and evaluation. ScienceBuddy studies the research-agent interface and joint harness/model learning. JEPA-Anything provides a cross-domain predictive foundation, which RSI-Anything extends into prediction-guided action and recursive improvement. Recuris investigates a complementary, training-free path: persistent memory and harness evolution for long tasks. **DiscoveryRSI moves the loop up to the level of research questions themselves** — it targets which hypotheses are worth pursuing and how they should be revised, compiles selected investigations into executable Harbor tasks (the task format also used by ScienceInfra), and introduces DFM-Bench to measure research progress beyond execution success. **These are independently developed and evaluated research releases, not interchangeable components or a claimed end-to-end DFM implementation.**
 
 ### Evidence from released work
 
 | Work | Selected reported evidence | What it demonstrates |
 | --- | --- | --- |
+| [DiscoveryRSI](https://arxiv.org/abs/2610.23839) | After two self-improvement rounds, mean hypothesis quality **4.86 → 5.39**, driven by testability (falsifiability **4.00 → 6.20**); in a blind review by **27** biomedical/clinical experts of **292** proposals, revisions by DiscoveryRSI-27B gained more on average than the compared frontier models; **6.3%** of its hypotheses connect concretely to research published after the model cutoff, the highest among compared models | Research experience can improve how hypotheses are developed and investigated, not only how tasks are executed |
 | [ScienceBuddy](https://arxiv.org/abs/2609.17523) | On 180 held-out scientific questions, Qwen3.5-4B pass@4 increased from **48.3% to 67.8%** at the same four-attempt budget | Model learning and harness refinement can reinforce one another |
 | [ScienceIDE](https://github.com/aitofound/ScienceIDE) | **64** environments in the study, **15** released with runtimes; PhAI-IDE **4B / 9B / 72B** model series | Scientific software can be converted into reusable execution and evaluation environments |
 | [JEPA-Anything](https://arxiv.org/abs/2609.20800) | A predictive learning principle studied across **seven domains**, from vision and biology to physical fields and weather | Shared prediction interfaces can extend beyond a single environment type |
 | [RSI-Anything](https://github.com/Gen-Verse/RSI-Anything) | Code-repair success **26.3% → 31.2%** from a static-verifier baseline to feedback-adapted world-model selection; **18.4% relative** improvement on OSWorld over the initial agent | Predictive models can help decide which actions and feedback to prioritize |
 | [Recuris](https://github.com/Gen-Verse/Recuris) | Improvements in **35 of 37** completed model–benchmark pairs | Validated memory evolution can improve long-horizon agents without weight updates |
 
-*Results are reported in their respective papers or repositories, on different tasks and protocols. They should not be read as a direct cross-project leaderboard.*
+*Results are reported in their respective papers or repositories, on different tasks and protocols. They should not be read as a direct cross-project leaderboard. DiscoveryRSI's human assessments are preliminary, and its automated importance and novelty scores decline after two rounds — the gains are in investigation design; see the [project entry](discoveryrsi/README.md) for limitations.*
 
 ### Open research agenda
 
-1. **From hypothesis generation to valuable problem discovery.** Represent hypotheses, research decisions, evidence and failed attempts as reusable experience; measure scientific value and research progress beyond execution success.
+1. **From hypothesis generation to valuable problem discovery.** Represent hypotheses, research decisions, evidence and failed attempts as reusable experience; measure scientific value and research progress beyond execution success. *DiscoveryRSI and DFM-Bench are a first step; importance and novelty remain open.*
 2. **Data–Environment–Verifier–Policy–Harness co-evolution.** Let newly exposed failure modes and experimental outcomes reshape the training distribution, environments, reward criteria, models and agent procedures.
 3. **Long-horizon, weakly verifiable research.** Expand from short executable tasks toward multi-step investigations with delayed, partial or costly feedback.
-4. **Prediction connected to intervention.** Improve world-model reliability under changing policies and connect computational proposals to reproducible simulations and, where feasible, real experiments.
+4. **Prediction connected to intervention.** Improve world-model reliability under changing policies and connect computational proposals to reproducible simulations and, where feasible, real experiments — including prospective tracking of whether proposed hypotheses are adopted and validated.
 
 The [DFM technical report](https://arxiv.org/abs/2609.15973) and Zetema architecture define the broader research direction. Public implementation and empirical claims remain scoped to the linked projects; ongoing directions above are **research goals**, not completed results.
 
@@ -88,6 +106,7 @@ We welcome scientists, research teams, and experimental platforms with important
 
 - **[Apply to the DFM Scientist Collaboration Program](https://ecnxosgyafi8.feishu.cn/wiki/Z1A2wr23ViqAOBkq3xfcgfl7nZg?table=tblboSz1SkRQ0iM2&view=vewoiUIlNk)**
 - **[DFM Scientist Collaboration Program — Overview](https://phai-labs.com/en/collaborate/)**
+- **Try [ScienceBuddy](https://science-buddy.io/)** — free research workspace; your follow-ups, edits and approvals are what it learns from.
 
 ## Developer Navigation & Index Updates
 
@@ -95,7 +114,7 @@ We welcome scientists, research teams, and experimental platforms with important
 - Use [Issues in this repository](https://github.com/Gen-Verse/DFM-Plans/issues) to suggest a project for inclusion, correct a link, or discuss the overall research map.
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) to submit an index or milestone update.
 
-## Citation & Contact
+## Citation
 
 If you find this work useful, please cite the DFM technical report. When using an individual project, please also cite its associated paper.
 
@@ -104,6 +123,13 @@ If you find this work useful, please cite the DFM technical report. When using a
   title={Discovery Foundation Models: Toward Open-Ended Discovery Intelligence},
   author={Yang, Ling and Yin, Zhenfei and Wu, Yingcheng},
   journal={arXiv preprint arXiv:2609.15973},
+  year={2026}
+}
+
+@article{zhong2026discoveryrsi,
+  title={DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses},
+  author={Zhong, Jianyuan and Wu, Chenwei and Yu, Zhaochen and Jiang, Xixian and Li, Xuewei and Xiao, Hao and Dai, Xilin and Wang, Junyang and Zou, Jiaru and Cui, Zhiqing and Zheng, Boyuan and Xiong, Jing and Zhang, Zhen and Gao, Qiang and Morley, Michael and Nakayama, Luis and Xu, Qiang and Shen, Liyue and Gui, Tao and Celi, Leo Anthony and Zou, James and Yin, Zhenfei and Wu, Yingcheng and Yang, Ling},
+  journal={arXiv preprint arXiv:2610.23839},
   year={2026}
 }
 
@@ -143,7 +169,15 @@ If you find this work useful, please cite the DFM technical report. When using a
   journal={arXiv preprint arXiv:2608.24876},
   year={2026}
 }
-
 ```
 
-**PhAI Labs** · [Website](https://phai-labs.com/) · [yang@phai-labs.com](mailto:yang@phai-labs.com)
+## Contact
+
+| Topic | Contact |
+| --- | --- |
+| Research & technical collaboration | [yang@phai-labs.com](mailto:yang@phai-labs.com) |
+| Business & industry partnerships | [wuyc@phai-labs.com](mailto:wuyc@phai-labs.com) |
+| Government & institutional relations | [yin@phai-labs.com](mailto:yin@phai-labs.com) |
+| Media & brand | [social@phai-labs.com](mailto:social@phai-labs.com) |
+
+**PhAI Labs** · [Website](https://phai-labs.com/en/) · [X](https://x.com/PhAILabs) · [Careers](https://phai-labs.com/en/careers/) · [Team](https://phai-labs.com/en/team/)
