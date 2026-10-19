@@ -12,7 +12,7 @@
 | **Data** | [DiscoveryRSI-Hypothesis-Task-Examples](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) |
 | **Benchmark** | [DFM-Bench](https://github.com/Gen-Verse/DFM-Bench) |
 | **Live arena** | [DiscoveryRSI Arena](https://foundry-arena.rsi-arena.workers.dev/arena) |
-| **Released** | 2026-10-19 · [Announcement](https://phai-labs.com/en/news/discoveryrsi/) |
+| **Released** | 2026-10-19 |
 | **Domains** | Clinical & population health, therapeutic target prioritization, disease mechanisms, population multi-omics; battery science as a transfer test |
 
 ## What counts as a hypothesis

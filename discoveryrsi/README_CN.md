@@ -12,7 +12,7 @@
 | **数据** | [DiscoveryRSI-Hypothesis-Task-Examples](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) |
 | **评测** | [DFM-Bench](https://github.com/Gen-Verse/DFM-Bench) |
 | **在线 Arena** | [DiscoveryRSI Arena](https://foundry-arena.rsi-arena.workers.dev/arena) |
-| **发布** | 2026-10-19 · [发布介绍](https://phai-labs.com/news/discoveryrsi/) |
+| **发布** | 2026-10-19 |
 | **领域** | 临床与人群健康、治疗靶点优先级排序、疾病机制、人群多组学；以电池科学检验跨领域迁移 |
 
 ## 什么是“假设”

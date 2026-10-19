@@ -20,15 +20,13 @@ Discovery Foundation Models（DFMs）探索 AI 如何发现问题、形成可研
 
 | 日期 | 发布 | 入口 |
 | --- | --- | --- |
-| **2026-10-19** | 🔥 **[DiscoveryRSI](discoveryrsi/README_CN.md)** —— 递归学习发现有价值的假设：让研究智能体从自己的研究经历中持续改进；发布 **DiscoveryRSI-27B** 与 **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | [论文](https://arxiv.org/abs/2610.23839) · [代码](https://github.com/Gen-Verse/DiscoveryRSI) · [模型](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [数据](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) · [Arena](https://foundry-arena.rsi-arena.workers.dev/arena) · [介绍](https://phai-labs.com/news/discoveryrsi/) |
-| **2026-10-12** | **[RSI-Anything](rsi-anything/README_CN.md)** —— 以世界模型驱动跨领域递归自我改进 | [论文](https://arxiv.org/abs/2610.13912) · [代码](https://github.com/Gen-Verse/RSI-Anything) · [介绍](https://phai-labs.com/news/rsi-anything/) |
-| **2026-09-18** | **[JEPA-Anything](jepa-anything/README_CN.md)** —— 跨领域预测世界模型 | [论文](https://arxiv.org/abs/2609.20800) · [代码](https://github.com/Gen-Verse/JEPA-Anything) · [介绍](https://phai-labs.com/news/jepa-anything/) |
-| **2026-09-17** | **[ScienceIDE](scienceide/README_CN.md)** —— 将科学代码库转化为可验证的 Agent 学习环境；发布 PhAI-IDE 4B / 9B / 72B | [论文](https://arxiv.org/abs/2609.19134) · [代码](https://github.com/aitofound/ScienceIDE) · [模型](https://huggingface.co/collections/AItonomy/scienceide-model-series) · [介绍](https://phai-labs.com/news/scienceide/) |
-| **2026-09-16** | **[ScienceBuddy](sciencebuddy/README_CN.md)** —— 交互式科研工作台，递归中的递归自我改进 | [论文](https://arxiv.org/abs/2609.17523) · [代码](https://github.com/Gen-Verse/ScienceBuddy) · [免费使用](https://science-buddy.io/) · [介绍](https://phai-labs.com/news/sciencebuddy/) |
-| **2026-09-15** | **DFM 技术报告**与研究版图 | [论文](https://arxiv.org/abs/2609.15973) · [介绍](https://phai-labs.com/news/dfm-launch/) |
+| **2026-10-19** | 🔥 **[DiscoveryRSI](discoveryrsi/README_CN.md)** —— 递归学习发现有价值的假设：让研究智能体从自己的研究经历中持续改进；发布 **DiscoveryRSI-27B** 与 **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | [论文](https://arxiv.org/abs/2610.23839) · [代码](https://github.com/Gen-Verse/DiscoveryRSI) · [模型](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [数据](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) · [Arena](https://foundry-arena.rsi-arena.workers.dev/arena) |
+| **2026-10-12** | **[RSI-Anything](rsi-anything/README_CN.md)** —— 以世界模型驱动跨领域递归自我改进 | [论文](https://arxiv.org/abs/2610.13912) · [代码](https://github.com/Gen-Verse/RSI-Anything) |
+| **2026-09-18** | **[JEPA-Anything](jepa-anything/README_CN.md)** —— 跨领域预测世界模型 | [论文](https://arxiv.org/abs/2609.20800) · [代码](https://github.com/Gen-Verse/JEPA-Anything) |
+| **2026-09-17** | **[ScienceIDE](scienceide/README_CN.md)** —— 将科学代码库转化为可验证的 Agent 学习环境；发布 PhAI-IDE 4B / 9B / 72B | [论文](https://arxiv.org/abs/2609.19134) · [代码](https://github.com/aitofound/ScienceIDE) · [模型](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
+| **2026-09-16** | **[ScienceBuddy](sciencebuddy/README_CN.md)** —— 交互式科研工作台，递归中的递归自我改进 | [论文](https://arxiv.org/abs/2609.17523) · [代码](https://github.com/Gen-Verse/ScienceBuddy) · [免费使用](https://science-buddy.io/) |
+| **2026-09-15** | **DFM 技术报告**与研究版图 | [论文](https://arxiv.org/abs/2609.15973) |
 | **2026-08** | **[Recuris](recuris/README_CN.md)** —— 面向长程 Agent Harness 的经验记忆—工作记忆递归演化 | [论文](https://arxiv.org/abs/2608.24876) · [代码](https://github.com/Gen-Verse/Recuris) |
-
-全部动态：[phai-labs.com/news](https://phai-labs.com/news/)
 
 ## 技术报告
 

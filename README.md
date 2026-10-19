@@ -20,15 +20,13 @@ Initiated by **[PhAI Labs](https://phai-labs.com/en/)** — *model and data infr
 
 | Date | Release | Links |
 | --- | --- | --- |
-| **2026-10-19** | 🔥 **[DiscoveryRSI](discoveryrsi/README.md)** — research agents that recursively learn to discover valuable hypotheses from their own research experience; releases **DiscoveryRSI-27B** and **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | [Paper](https://arxiv.org/abs/2610.23839) · [Code](https://github.com/Gen-Verse/DiscoveryRSI) · [Model](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [Data](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) · [Arena](https://foundry-arena.rsi-arena.workers.dev/arena) · [Blog](https://phai-labs.com/en/news/discoveryrsi/) |
-| **2026-10-12** | **[RSI-Anything](rsi-anything/README.md)** — world models for recursive self-improvement across domains | [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) · [Blog](https://phai-labs.com/en/news/rsi-anything/) |
-| **2026-09-18** | **[JEPA-Anything](jepa-anything/README.md)** — cross-domain predictive world models | [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) · [Blog](https://phai-labs.com/en/news/jepa-anything/) |
-| **2026-09-17** | **[ScienceIDE](scienceide/README.md)** — scientific codebases as verifiable agent-learning environments; PhAI-IDE 4B / 9B / 72B | [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) · [Blog](https://phai-labs.com/en/news/scienceide/) |
-| **2026-09-16** | **[ScienceBuddy](sciencebuddy/README.md)** — interactive research workspace with recursive-in-recursive self-improvement | [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Try it free](https://science-buddy.io/) · [Blog](https://phai-labs.com/en/news/sciencebuddy/) |
-| **2026-09-15** | **DFM Technical Report** and research map | [Paper](https://arxiv.org/abs/2609.15973) · [Blog](https://phai-labs.com/en/news/dfm-launch/) |
+| **2026-10-19** | 🔥 **[DiscoveryRSI](discoveryrsi/README.md)** — research agents that recursively learn to discover valuable hypotheses from their own research experience; releases **DiscoveryRSI-27B** and **[DFM-Bench](https://github.com/Gen-Verse/DFM-Bench)** | [Paper](https://arxiv.org/abs/2610.23839) · [Code](https://github.com/Gen-Verse/DiscoveryRSI) · [Model](https://huggingface.co/Gen-Verse/DiscoveryRSI-27B) · [Data](https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples) · [Arena](https://foundry-arena.rsi-arena.workers.dev/arena) |
+| **2026-10-12** | **[RSI-Anything](rsi-anything/README.md)** — world models for recursive self-improvement across domains | [Paper](https://arxiv.org/abs/2610.13912) · [Code](https://github.com/Gen-Verse/RSI-Anything) |
+| **2026-09-18** | **[JEPA-Anything](jepa-anything/README.md)** — cross-domain predictive world models | [Paper](https://arxiv.org/abs/2609.20800) · [Code](https://github.com/Gen-Verse/JEPA-Anything) |
+| **2026-09-17** | **[ScienceIDE](scienceide/README.md)** — scientific codebases as verifiable agent-learning environments; PhAI-IDE 4B / 9B / 72B | [Paper](https://arxiv.org/abs/2609.19134) · [Code](https://github.com/aitofound/ScienceIDE) · [Models](https://huggingface.co/collections/AItonomy/scienceide-model-series) |
+| **2026-09-16** | **[ScienceBuddy](sciencebuddy/README.md)** — interactive research workspace with recursive-in-recursive self-improvement | [Paper](https://arxiv.org/abs/2609.17523) · [Code](https://github.com/Gen-Verse/ScienceBuddy) · [Try it free](https://science-buddy.io/) |
+| **2026-09-15** | **DFM Technical Report** and research map | [Paper](https://arxiv.org/abs/2609.15973) |
 | **2026-08** | **[Recuris](recuris/README.md)** — experiential–working memory evolution for long-horizon agent harnesses | [Paper](https://arxiv.org/abs/2608.24876) · [Code](https://github.com/Gen-Verse/Recuris) |
-
-All announcements: [phai-labs.com/en/news](https://phai-labs.com/en/news/)
 
 ## Technical Report
 
